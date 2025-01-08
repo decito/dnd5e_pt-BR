@@ -1,203 +1,195 @@
 {
-	"label": "Livro do Jogador 2024",
-	"entries": {
-		"Actions": {
-			"name": "Actions"
-		},
+  "label": "Livro do Jogador 2024",
+  "entries": {
+    "Actions": {
+      "name": "Actions"
+    },
 
+    "Appendix C: Rules Glossary": {
+      "name": "Apêndice C: Glossário de Regras",
+      "pages": {
+        "Blinded": {
+          "name": "Cego",
+          "text": "<p><em><strong>Sem Visão.</strong></em> Você não pode ver e falha automaticamente em qualquer teste de atributo que exija visão.</p><p><em><strong>Ataque Afetado.</strong></em> As jogadas de ataque contra você têm &Reference[Advantage], e suas jogadas de ataque têm &Reference[Disadvantage].</p>"
+        },
+        "Charmed": {
+          "name": "Enfeitiçado",
+          "text": "<p>Enquanto você tiver a condição Enfeitiçado, você experimenta os seguintes efeitos.</p><p><em><strong>Não Machucar a Fonte.</strong></em> Você não pode atacar o enfeitiçador ou alvejá-lo com habilidades danosas ou efeitos mágicos.</p><p><em><strong>Vantagem Social.</strong></em> O enfeitiçador tem vantagem em qualquer teste de atributo para interagir com você socialmente.</p>"
+        },
+        "Deafened": {
+          "name": "Surdo",
+          "text": "<p><strong>Sem Audição.</strong> Você não pode ouvir e falha automaticamente em qualquer teste de atributo que exija audição.</p>"
+        },
+        "Exhaustion": {
+          "name": "Exaustão",
+          "text": "<p>Enquanto você tem a condição de Exaustão, você experimenta os seguintes efeitos.</p><p><em><strong>Níveis de Exaustão.</strong></em> Esta condição é cumulativa. Cada vez que você a recebe, você ganha 1 nível de Exaustão. Você morre se seu nível de Exaustão for 6.</p><p><em><strong>Teste D20 Afetado.</strong></em> Quando você faz um &Reference[D20 Test], o teste é reduzido por 2 vezes o seu nível de Exaustão.</p><p><em><strong>Deslocamento Reduzido.</strong></em> Seu &Reference[Speed] é reduzido por um número de pés igual a 5 vezes o seu nível de Exaustão.</p><p><em><strong>Removendo Níveis de Exaustão.</strong></em> Finalizando um &Reference[Long Rest] remove 1 dos seus níveis de Exaustão. Quando seu nível de Exaustão chega a 0, a condição termina.</p>"
+        },
+        "Frightened": {
+          "name": "Amedrontado",
+          "text": "<p>Enquanto você tem a condição Amedrontado, você experimenta os seguintes efeitos.</p><p><em><strong>Teste de Atributo e Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em testes de atributo e jogadas de ataque enquanto a fonte do medo estiver dentro da linha de visão.</p><p><em><strong>Não se Aproxime.</strong></em> Você não pode se aproximar voluntariamente da fonte do medo.</p>"
+        },
+        "Grappled": {
+          "name": "Agarrado",
+          "text": "<p>Enquanto você tem a condição Agarrado, você experimenta os seguintes efeitos.</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em jogadas de ataque contra qualquer alvo que não seja quem o esta agarrando.</p><p><em><strong>Móvel.</strong></em> Quem esta te agarrando pode arrastar ou carregar você enquanto se move, mas cada pé de movimento custa 1 pé extra, a menos que você seja Pequeno ou seja dois ou mais tamanhos menor que ele.</p>"
+        },
+        "Incapacitated": {
+          "name": "Incapacitado",
+          "text": "<p>Enquanto você tem a condição Incapacitado, você experimenta os seguintes efeitos.</p><p><em><strong>Inativo.</strong></em> Você não pode usar nenhuma @UUID[.SsIXfzS2ZttwAaKj]{Action}, @UUID[.EjR3KL7KLTwjWBS0]{Bonus Action}, ou @UUID[.OhSIWaQ61dOp7S8M]{Reaction}.</p><p><em><strong>Sem Concentração.</strong></em> Sua &Reference[Concentration] é quebrada.</p><p><em><strong>Sem Palavras.</strong></em> Você não pode falar.</p><p><em><strong>Surpreso.</strong></em> Se você estiver Incapacitado ao rolar Iniciativa, você tem &Reference[Disadvantage] no teste.</p>"
+        },
+        "Invisible": {
+          "name": "Invisível",
+          "text": "<p>Enquanto você tem a condição Invisível, você experimenta os seguintes efeitos.</p><p><em><strong>Surpresa.</strong></em> Se você estiver Invisível ao rolar Iniciativa, você tem &Reference[Advantage] no teste.</p><p><em><strong>Escondido.</strong></em> Você não é afetado por nenhum efeito que exija que seu alvo seja visto, a menos que o criador do efeito possa vê-lo de alguma forma. Qualquer equipamento que você esteja vestindo ou carregando também fica oculto.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Disadvantage], e suas jogadas de ataque têm &Reference[Advantage]. Se uma criatura puder vê-lo de alguma forma, você não ganha esse benefício contra essa criatura.</p>"
+        },
+        "Paralyzed": {
+          "name": "Paralizado",
+          "text": "<p>Enquanto você tem a condição Paralisado, você experimenta os seguintes efeitos.</p><p><em><strong>Incapacitado.</strong></em> Você tem a condição &Reference[Incapacitated].</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p><p><em><strong>Acertos Críticos Automáticos.</strong></em> Qualquer jogada de ataque que acerte você é um acerto crítico se o atacante estiver a até 5 pés de você.</p>"
+        },
+        "Petrified": {
+          "name": "Petrificado",
+          "text": "<p>Enquanto você tem a condição Petrificado, você experimenta os seguintes efeitos.</p><p><em><strong>Virar Substância Inanimada.</strong></em> Você é transformado, junto com quaisquer objetos não mágicos que você esteja vestindo e carregando, em uma substância sólida inanimada (geralmente pedra). Seu peso aumenta por um fator de dez, e você para de envelhecer.</p><p><em><strong>Incapacitado.</strong></em> Você tem a condição &Reference[Incapacitated].</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Resistir a Dano.</strong></em> Você tem &Reference[Resistance] a todos os tipos de dano.</p><p><em><strong>Imunidade a Veneno.</strong></em> Você tem imunidade a condição &Reference[Poisoned].</p>"
+        },
+        "Poisoned": {
+          "name": "Envenenado",
+          "text": "<p>Enquanto você tem a condição Envenenado, você experimenta o seguinte efeito.</p><p><em><strong>Teste de Atributo e Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em jogadas de ataque e testes de atributo.</p>"
+        },
+        "Prone": {
+          "name": "Caído",
+          "text": "<p>Enquanto você tem a condição Caído, você experimenta os seguintes efeitos.</p><p><em><strong>Movimento Restrito.</strong></em> Suas únicas opções de movimento são rastejar ou gastar uma quantidade de movimento igual à metade do seu &Reference[Speed] (arredondar para baixo) para se levantar e, assim, terminar a condição. Se seu Deslocamento for 0, você não pode se levantar.</p><p><em><strong>Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em jogadas de ataque. Uma jogada de ataque contra você tem &Reference[Advantage] se o atacante estiver a 1,5 m de você. Caso contrário, essa jogada de ataque terá &Reference[Disadvantage].</p>"
+        },
+        "Restrained": {
+          "name": "Contido",
+          "text": "<p>Enquanto você tem a condição Contido, você experimenta os seguintes efeitos.</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage], e suas jogadas de ataque têm &Reference[Disadvantage].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Destreza.</p>"
+        },
+        "Stunned": {
+          "name": "Atordoado",
+          "text": "<p>Quando você tem a condição Atordoado, você experimenta os seguintes efeitos.</p><p><em><strong>Incapacitado.</strong></em> Você tem a condição &Reference[Incapacitated].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p>"
+        },
+        "Unconscious": {
+          "name": "Inconsciente",
+          "text": "<p>Enquanto você tem a condição Inconsciente, você experimenta os seguintes efeitos.</p><p><em><strong>Inerte.</strong></em> Você tem as condições &Reference[Incapacitated] e &Reference[Prone], e você larga o que estiver segurando. Quando essa condição termina, você permanece &Reference[Prone].</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Acertos Críticos Automáticos.</strong></em> Qualquer ataque que acerte você é considerado um acerto crítico se o atacante estiver a até 5 pés de você.</p>"
+        },
+        "Advantage": {
+          "name": "Vantagem",
+          "text": "<p>If you have Advantage on a @UUID[.nxPH59t3iNtWJxnU]{D20 Test}, roll two d20s, and use the higher roll. A roll can’t be affected by more than one Advantage, and Advantage and Disadvantage on the same roll cancel each other.</p>"
+        },
+        "Disadvantage": {
+          "name": "Desvantagem",
+          "text": "<p>If you have Disadvantage on a &Reference[D20 Test], roll two d20s and use the lower roll. A roll can’t be affected by more than one Disadvantage, and Advantage and Disadvantage on the same roll cancel each other.</p>"
+        }
+      }
+    },
 
-		"Appendix C: Rules Glossary": {
-			"name": "Apêndice C: Glossário de Regras",
-			"pages": {
-
-				"Blinded": {
-                    "name": "Cego",
-                    "text": "<p><em><strong>Sem Visão.</strong></em> Você não pode ver e falha automaticamente em qualquer teste de atributo que exija visão.</p><p><em><strong>Ataque Afetado.</strong></em> As jogadas de ataque contra você têm &Reference[Advantage], e suas jogadas de ataque têm &Reference[Disadvantage].</p>"
-				},
-				"Charmed": {
-                    "name": "Enfeitiçado",
-                    "text": "<p>Enquanto você tiver a condição Enfeitiçado, você experimenta os seguintes efeitos.</p><p><em><strong>Não Machucar a Fonte.</strong></em> Você não pode atacar o enfeitiçador ou alvejá-lo com habilidades danosas ou efeitos mágicos.</p><p><em><strong>Vantagem Social.</strong></em> O enfeitiçador tem vantagem em qualquer teste de atributo para interagir com você socialmente.</p>"
-				},
-				"Deafened": {
-                    "name": "Surdo",
-                    "text": "<p><strong>Sem Audição.</strong> Você não pode ouvir e falha automaticamente em qualquer teste de atributo que exija audição.</p>"
-				},
-				"Exhaustion": {
-                    "name": "Exaustão",
-                    "text": "<p>Enquanto você tem a condição de Exaustão, você experimenta os seguintes efeitos.</p><p><em><strong>Níveis de Exaustão.</strong></em> Esta condição é cumulativa. Cada vez que você a recebe, você ganha 1 nível de Exaustão. Você morre se seu nível de Exaustão for 6.</p><p><em><strong>Teste D20 Afetado.</strong></em> Quando você faz um &Reference[D20 Test], o teste é reduzido por 2 vezes o seu nível de Exaustão.</p><p><em><strong>Deslocamento Reduzido.</strong></em> Seu &Reference[Speed] é reduzido por um número de pés igual a 5 vezes o seu nível de Exaustão.</p><p><em><strong>Removendo Níveis de Exaustão.</strong></em> Finalizando um &Reference[Long Rest] remove 1 dos seus níveis de Exaustão. Quando seu nível de Exaustão chega a 0, a condição termina.</p>"
-				},
-				"Frightened": {
-                    "name": "Amedrontado",
-                    "text": "<p>Enquanto você tem a condição Amedrontado, você experimenta os seguintes efeitos.</p><p><em><strong>Teste de Atributo e Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em testes de atributo e jogadas de ataque enquanto a fonte do medo estiver dentro da linha de visão.</p><p><em><strong>Não se Aproxime.</strong></em> Você não pode se aproximar voluntariamente da fonte do medo.</p>"
-				},
-				"Grappled": {
-                    "name": "Agarrado",
-                    "text": "<p>Enquanto você tem a condição Agarrado, você experimenta os seguintes efeitos.</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em jogadas de ataque contra qualquer alvo que não seja quem o esta agarrando.</p><p><em><strong>Móvel.</strong></em> Quem esta te agarrando pode arrastar ou carregar você enquanto se move, mas cada pé de movimento custa 1 pé extra, a menos que você seja Pequeno ou seja dois ou mais tamanhos menor que ele.</p>"
-				},
-				"Incapacitated": {
-                    "name": "Incapacitado",
-                    "text": "<p>Enquanto você tem a condição Incapacitado, você experimenta os seguintes efeitos.</p><p><em><strong>Inativo.</strong></em> Você não pode usar nenhuma @UUID[.SsIXfzS2ZttwAaKj]{Action}, @UUID[.EjR3KL7KLTwjWBS0]{Bonus Action}, ou @UUID[.OhSIWaQ61dOp7S8M]{Reaction}.</p><p><em><strong>Sem Concentração.</strong></em> Sua &Reference[Concentration] é quebrada.</p><p><em><strong>Sem Palavras.</strong></em> Você não pode falar.</p><p><em><strong>Surpreso.</strong></em> Se você estiver Incapacitado ao rolar Iniciativa, você tem &Reference[Disadvantage] no teste.</p>"
-				},
-				"Invisible": {
-                    "name": "Invisível",
-                    "text": "<p>Enquanto você tem a condição Invisível, você experimenta os seguintes efeitos.</p><p><em><strong>Surpresa.</strong></em> Se você estiver Invisível ao rolar Iniciativa, você tem &Reference[Advantage] no teste.</p><p><em><strong>Escondido.</strong></em> Você não é afetado por nenhum efeito que exija que seu alvo seja visto, a menos que o criador do efeito possa vê-lo de alguma forma. Qualquer equipamento que você esteja vestindo ou carregando também fica oculto.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Disadvantage], e suas jogadas de ataque têm &Reference[Advantage]. Se uma criatura puder vê-lo de alguma forma, você não ganha esse benefício contra essa criatura.</p>"
-				},
-				"Paralyzed": {
-                    "name": "Paralizado",
-                    "text": "<p>Enquanto você tem a condição Paralisado, você experimenta os seguintes efeitos.</p><p><em><strong>Incapacitado.</strong></em> Você tem a condição &Reference[Incapacitated].</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p><p><em><strong>Acertos Críticos Automáticos.</strong></em> Qualquer jogada de ataque que acerte você é um acerto crítico se o atacante estiver a até 5 pés de você.</p>"
-				},
-				"Petrified": {
-                    "name": "Petrificado",
-                    "text": "<p>Enquanto você tem a condição Petrificado, você experimenta os seguintes efeitos.</p><p><em><strong>Virar Substância Inanimada.</strong></em> Você é transformado, junto com quaisquer objetos não mágicos que você esteja vestindo e carregando, em uma substância sólida inanimada (geralmente pedra). Seu peso aumenta por um fator de dez, e você para de envelhecer.</p><p><em><strong>Incapacitado.</strong></em> Você tem a condição &Reference[Incapacitated].</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Resistir a Dano.</strong></em> Você tem &Reference[Resistance] a todos os tipos de dano.</p><p><em><strong>Imunidade a Veneno.</strong></em> Você tem imunidade a condição &Reference[Poisoned].</p>"
-				},
-				"Poisoned": {
-                    "name": "Envenenado",
-                    "text": "<p>Enquanto você tem a condição Envenenado, você experimenta o seguinte efeito.</p><p><em><strong>Teste de Atributo e Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em jogadas de ataque e testes de atributo.</p>"
-				},
-				"Prone": {
-                    "name": "Caído",
-                    "text": "<p>Enquanto você tem a condição Caído, você experimenta os seguintes efeitos.</p><p><em><strong>Movimento Restrito.</strong></em> Suas únicas opções de movimento são rastejar ou gastar uma quantidade de movimento igual à metade do seu &Reference[Speed] (arredondar para baixo) para se levantar e, assim, terminar a condição. Se seu Deslocamento for 0, você não pode se levantar.</p><p><em><strong>Ataque Afetado.</strong></em> Você tem &Reference[Disadvantage] em jogadas de ataque. Uma jogada de ataque contra você tem &Reference[Advantage] se o atacante estiver a 1,5 m de você. Caso contrário, essa jogada de ataque terá &Reference[Disadvantage].</p>"
-				},
-				"Restrained": {
-                    "name": "Contido",
-                    "text": "<p>Enquanto você tem a condição Contido, você experimenta os seguintes efeitos.</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage], e suas jogadas de ataque têm &Reference[Disadvantage].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Destreza.</p>"
-				},
-				"Stunned": {
-                    "name": "Atordoado",
-                    "text": "<p>Quando você tem a condição Atordoado, você experimenta os seguintes efeitos.</p><p><em><strong>Incapacitado.</strong></em> Você tem a condição &Reference[Incapacitated].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p>"
-				},
-				"Unconscious": {
-                    "name": "Inconsciente",
-                    "text": "<p>Enquanto você tem a condição Inconsciente, você experimenta os seguintes efeitos.</p><p><em><strong>Inerte.</strong></em> Você tem as condições &Reference[Incapacitated] e &Reference[Prone], e você larga o que estiver segurando. Quando essa condição termina, você permanece &Reference[Prone].</p><p><em><strong>Deslocamento 0.</strong></em> Seu &Reference[Speed] é 0 e não pode ser aumentado.</p><p><em><strong>Ataque Afetado.</strong></em> Jogadas de ataque contra você têm &Reference[Advantage].</p><p><em><strong>Salvaguarda Afetada.</strong></em> Você falha automaticamente em Salvaguardas de Força e Destreza.</p><p><em><strong>Acertos Críticos Automáticos.</strong></em> Qualquer ataque que acerte você é considerado um acerto crítico se o atacante estiver a até 5 pés de você.</p>"
-				},
-				"Advantage": {
-                    "name": "Vantagem",
-                    "text": "<p>If you have Advantage on a @UUID[.nxPH59t3iNtWJxnU]{D20 Test}, roll two d20s, and use the higher roll. A roll can’t be affected by more than one Advantage, and Advantage and Disadvantage on the same roll cancel each other.</p>"
-				},
-				"Disadvantage": {
-                    "name": "Desvantagem",
-                    "text": "<p>If you have Disadvantage on a &Reference[D20 Test], roll two d20s and use the lower roll. A roll can’t be affected by more than one Disadvantage, and Advantage and Disadvantage on the same roll cancel each other.</p>"
-				}
-
-			}
-		},
-
-		"Appendix D: Rule References": {
-			"name": "Apêndice D: Referência para Regras",
-			"pages": {
-
-                "Athletics": {
-                    "name": "Atletismo",
-                    "text": "<p><strong>Exemplos:</strong> Pular mais longe do que o normal, nadar em águas agitadas ou quebrar algo.</p>"
-				},
-				"Acrobatics": {
-                    "name": "Acrobacia",
-                    "text": "<p><strong>Exemplos:</strong> Ficar de pé em uma situação complicada ou fazer uma acrobacia.</p>"
-				},
-				"Sleight of Hand": {
-                    "name": "Prestidigitação",
-                    "text": "<p><strong>Exemplos:</strong> Roubar um bolso, esconder um objeto portátil ou fazer movivmentos complexos com as mãos.</p>"
-				},
-				"Stealth": {
-                    "name": "Furtividade",
-                    "text": "<p><strong>Exemplos:</strong> Fujir da atenção movendo-se silenciosamente e escondendo-se atrás das coisas.</p>"
-				},
-				"Arcana": {
-                    "name": "Arcanismo",
-                    "text": "<p><strong>Exemplos:</strong> Saber a tradição sobre magias, itens mágicos e os planos de existência.</p>"
-				},
-				"History": {
-                    "name": "História",
-                    "text": "<p><strong>Exemplos:</strong> Saber histórias sobre eventos históricos, pessoas, nações e culturas.</p>"
-				},
-				"Investigation": {
-                    "name": "Investigação",
-                    "text": "<p><strong>Exemplos:</strong> Encontrar informações obscuras em livros ou deduzir como algo funciona.</p>"
-				},
-				"Nature": {
-                    "name": "Natureza",
-                    "text": "<p><strong>Exemplos:</strong> Saber histórias sobre terrenos, plantas, animais e clima.</p>"
-				},
-				"Religion": {
-                    "name": "Religião",
-                    "text": "<p><strong>Exemplos:</strong> Saber a tradição sobre deuses, rituais religiosos e símbolos sagrados.</p>"
-				},
-				"Animal Handling": {
-                    "name": "Lidar c/ Animais",
-                    "text": "<p><strong>Exemplos:</strong> Acalmar ou treinar um animal, ou fazer com que ele se comporte de uma determinada maneira.</p>"
-				},
-				"Insight": {
-                    "name": "Intuição",
-                    "text": "<p><strong>Exemplos:</strong> Discernir o humor e as intenções de uma pessoa.</p>"
-				},
-				"Medicine": {
-                    "name": "Medicina",
-                    "text": "<p><strong>Exemplos:</strong> Diagnosticar uma doença ou determinar o que matou o recentemente morto.</p>"
-				},
-				"Perception": {
-                    "name": "Percepção",
-                    "text": "<p><strong>Exemplos:</strong> Usar uma combinação de sentidos, observar algo que é fácil de perder.</p>"
-				},
-				"Survival": {
-                    "name": "Sobrevivência",
-                    "text": "<p><strong>Exemplos:</strong> Seguir trilhas, procurar comida, encontrar uma trilha ou evitar perigos naturais.</p>"
-				},
-				"Deception": {
-                    "name": "Enganação",
-                    "text": "<p><strong>Exemplos:</strong> Contar uma mentira convincente ou usar um disfarce convincente.</p>"
-				},
-				"Intimidation": {
-                    "name": "Intimidação",
-                    "text": "<p><strong>Exemplos:</strong> Ameaçar ou Convencer alguém a fazer o que você quer usando medo.</p>"
-				},
-				"Performance": {
-                    "name": "Atuação",
-                    "text": "<p><strong>Exemplos:</strong> Atuar, contar uma história, fazer uma música ou dançar.</p>"
-				},
-				"Persuasion": {
-                    "name": "Persuasão",
-                    "text": "<p><strong>Exemplos:</strong> Convencer alguém de algo de forma honesta e graciosa.</p>"
-				},
-				"Speed": {
-                    "name": "Deslocamento"
-				},
-				"Cleave": {
-					"name": "Cleave",
-                    "text": "<p>Se você acertar uma criatura com um ataque corpo a corpo usando esta arma, você pode fazer um ataque corpo a corpo com a arma contra uma segunda criatura a até 5 pés da primeira que também esteja ao seu alcance. Em um acerto, a segunda criatura recebe o dano da arma, mas não adicione seu modificador de atributo a esse dano, a menos que esse modificador seja negativo. Você pode fazer esse ataque extra apenas uma vez por turno.</p>"
-				},
-				"Graze": {
-					"name": "Graze",
-                    "text": "<p>Se sua jogada de ataque com esta arma errar uma criatura, você pode causar dano a essa criatura igual ao modificador de atributo que você usou para fazer a jogada de ataque. Esse dano é do mesmo tipo causado pela arma, e o dano só pode ser aumentado ao aumentar o modificador de atributo.</p>"
-				},
-				"Nick": {
-					"name": "Nick",
-                    "text": "<p>Quando você fizer o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode realizar esse ataque extra apenas uma vez por turno.</p>"
-				},
-				"Push": {
-					"name": "Push",
-                    "text": "<p>Se você acertar uma criatura com esta arma, você pode empurrá-la em até 10 pés diretamente para longe de você se ela for Grande ou menor.</p>"
-				},
-				"Sap": {
-					"name": "Sap",
-                    "text": "<p>Se você acertar uma criatura com esta arma, ela terá Desvantagem na próxima jogada de ataque dela antes do início do seu próximo turno.</p>"
-				},
-				"Slow": {
-					"name": "Slow",
-                    "text": "<p>Se você acertar uma criatura com esta arma e causar dano a ela, você pode reduzir a Velocidade dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Velocidade não excede 10 pés.</p>"
-				},
-				"Topple": {
-					"name": "Topple",
-                    "text": "<p>Se você acertar uma criatura com esta arma, você pode forçar a criatura a realizar um teste de resistência de Constituição (CD 8 mais o modificador de atributo usado para fazer a rolagem de ataque e seu bônus de proficiência). Em uma falha no teste, a criatura recebe a condição Caído.</p>"
-				},
-				"Vex": {
-					"name": "Vex",
-                    "text": "<p>Se você acertar uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>"
-				}
-
-
-
-
-			}
-		}
-	}
+    "Appendix D: Rule References": {
+      "name": "Apêndice D: Referência para Regras",
+      "pages": {
+        "Athletics": {
+          "name": "Atletismo",
+          "text": "<p><strong>Exemplos:</strong> Pular mais longe do que o normal, nadar em águas agitadas ou quebrar algo.</p>"
+        },
+        "Acrobatics": {
+          "name": "Acrobacia",
+          "text": "<p><strong>Exemplos:</strong> Ficar de pé em uma situação complicada ou fazer uma acrobacia.</p>"
+        },
+        "Sleight of Hand": {
+          "name": "Prestidigitação",
+          "text": "<p><strong>Exemplos:</strong> Roubar um bolso, esconder um objeto portátil ou fazer movivmentos complexos com as mãos.</p>"
+        },
+        "Stealth": {
+          "name": "Furtividade",
+          "text": "<p><strong>Exemplos:</strong> Fujir da atenção movendo-se silenciosamente e escondendo-se atrás das coisas.</p>"
+        },
+        "Arcana": {
+          "name": "Arcanismo",
+          "text": "<p><strong>Exemplos:</strong> Saber a tradição sobre magias, itens mágicos e os planos de existência.</p>"
+        },
+        "History": {
+          "name": "História",
+          "text": "<p><strong>Exemplos:</strong> Saber histórias sobre eventos históricos, pessoas, nações e culturas.</p>"
+        },
+        "Investigation": {
+          "name": "Investigação",
+          "text": "<p><strong>Exemplos:</strong> Encontrar informações obscuras em livros ou deduzir como algo funciona.</p>"
+        },
+        "Nature": {
+          "name": "Natureza",
+          "text": "<p><strong>Exemplos:</strong> Saber histórias sobre terrenos, plantas, animais e clima.</p>"
+        },
+        "Religion": {
+          "name": "Religião",
+          "text": "<p><strong>Exemplos:</strong> Saber a tradição sobre deuses, rituais religiosos e símbolos sagrados.</p>"
+        },
+        "Animal Handling": {
+          "name": "Lidar c/ Animais",
+          "text": "<p><strong>Exemplos:</strong> Acalmar ou treinar um animal, ou fazer com que ele se comporte de uma determinada maneira.</p>"
+        },
+        "Insight": {
+          "name": "Intuição",
+          "text": "<p><strong>Exemplos:</strong> Discernir o humor e as intenções de uma pessoa.</p>"
+        },
+        "Medicine": {
+          "name": "Medicina",
+          "text": "<p><strong>Exemplos:</strong> Diagnosticar uma doença ou determinar o que matou o recentemente morto.</p>"
+        },
+        "Perception": {
+          "name": "Percepção",
+          "text": "<p><strong>Exemplos:</strong> Usar uma combinação de sentidos, observar algo que é fácil de perder.</p>"
+        },
+        "Survival": {
+          "name": "Sobrevivência",
+          "text": "<p><strong>Exemplos:</strong> Seguir trilhas, procurar comida, encontrar uma trilha ou evitar perigos naturais.</p>"
+        },
+        "Deception": {
+          "name": "Enganação",
+          "text": "<p><strong>Exemplos:</strong> Contar uma mentira convincente ou usar um disfarce convincente.</p>"
+        },
+        "Intimidation": {
+          "name": "Intimidação",
+          "text": "<p><strong>Exemplos:</strong> Ameaçar ou Convencer alguém a fazer o que você quer usando medo.</p>"
+        },
+        "Performance": {
+          "name": "Atuação",
+          "text": "<p><strong>Exemplos:</strong> Atuar, contar uma história, fazer uma música ou dançar.</p>"
+        },
+        "Persuasion": {
+          "name": "Persuasão",
+          "text": "<p><strong>Exemplos:</strong> Convencer alguém de algo de forma honesta e graciosa.</p>"
+        },
+        "Speed": {
+          "name": "Deslocamento"
+        },
+        "Cleave": {
+          "name": "Cleave",
+          "text": "<p>Se você acertar uma criatura com um ataque corpo a corpo usando esta arma, você pode fazer um ataque corpo a corpo com a arma contra uma segunda criatura a até 5 pés da primeira que também esteja ao seu alcance. Em um acerto, a segunda criatura recebe o dano da arma, mas não adicione seu modificador de atributo a esse dano, a menos que esse modificador seja negativo. Você pode fazer esse ataque extra apenas uma vez por turno.</p>"
+        },
+        "Graze": {
+          "name": "Graze",
+          "text": "<p>Se sua jogada de ataque com esta arma errar uma criatura, você pode causar dano a essa criatura igual ao modificador de atributo que você usou para fazer a jogada de ataque. Esse dano é do mesmo tipo causado pela arma, e o dano só pode ser aumentado ao aumentar o modificador de atributo.</p>"
+        },
+        "Nick": {
+          "name": "Nick",
+          "text": "<p>Quando você fizer o ataque extra da propriedade Leve, você pode realizá-lo como parte da ação de Ataque em vez de como uma Ação Bônus. Você pode realizar esse ataque extra apenas uma vez por turno.</p>"
+        },
+        "Push": {
+          "name": "Push",
+          "text": "<p>Se você acertar uma criatura com esta arma, você pode empurrá-la em até 10 pés diretamente para longe de você se ela for Grande ou menor.</p>"
+        },
+        "Sap": {
+          "name": "Sap",
+          "text": "<p>Se você acertar uma criatura com esta arma, ela terá Desvantagem na próxima jogada de ataque dela antes do início do seu próximo turno.</p>"
+        },
+        "Slow": {
+          "name": "Slow",
+          "text": "<p>Se você acertar uma criatura com esta arma e causar dano a ela, você pode reduzir a Velocidade dela em 10 pés até o início do seu próximo turno. Se a criatura for atingida mais de uma vez por armas que possuam esta propriedade, a redução de Velocidade não excede 10 pés.</p>"
+        },
+        "Topple": {
+          "name": "Topple",
+          "text": "<p>Se você acertar uma criatura com esta arma, você pode forçar a criatura a realizar um teste de resistência de Constituição (CD 8 mais o modificador de atributo usado para fazer a rolagem de ataque e seu bônus de proficiência). Em uma falha no teste, a criatura recebe a condição Caído.</p>"
+        },
+        "Vex": {
+          "name": "Vex",
+          "text": "<p>Se você acertar uma criatura com esta arma e causar dano a ela, você tem Vantagem na sua próxima rolagem de ataque contra essa criatura antes do final do seu próximo turno.</p>"
+        }
+      }
+    }
+  }
 }

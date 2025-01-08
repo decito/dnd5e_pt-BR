@@ -1,7 +1,7 @@
 {
-  "id": "dnd5e2024br",
-  "title": "DND5e PTBR 2024",
-  "version": "1.0.0",
+  "id": "dnd5e_2024_pt-BR",
+  "title": "DnD5e Português do Brasil (2024)",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -10,33 +10,42 @@
     "requires": [
       {
         "id": "babele",
-        "type": "module",
-        "compatibility": {}
+        "type": "module"
       }
     ],
     "systems": [
       {
         "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
+        "type": "system"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pt-BR",
+        "type": "module"
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "dnd5e_pt-BR",
+        "type": "module"
       }
     ]
   },
-  "esmodules": [
-    "babele-register.js"
-  ],
+  "esmodules": ["main.js"],
   "languages": [
     {
       "lang": "pt-BR",
       "name": "Português (Brasil)",
-      "path": "lang/system.json",
-      "flags": {}
+      "path": "lang/pt-BR.json"
     }
   ],
   "authors": [
     {
-      "name": "LuKKsz",
-      "flags": {}
+      "name": "LuKKsz"
+    },
+    {
+      "name": "decito"
     }
   ]
 }
