@@ -28,16 +28,16 @@
   "TYPES.Item.consumablePl": "Consumíveis",
   "TYPES.Item.equipment": "Equipamento",
   "TYPES.Item.equipmentPl": "Equipamentos",
-  "TYPES.Item.feat": "Característica",
-  "TYPES.Item.featurePl": "Características",
+  "TYPES.Item.feat": "Traço",
+  "TYPES.Item.featurePl": "Traços",
   "TYPES.Item.loot": "Saque",
   "TYPES.Item.lootPl": "Saques",
   "TYPES.Item.race": "Espécie",
   "TYPES.Item.racePl": "Espécies",
   "TYPES.Item.raceLegacy": "Raça",
   "TYPES.Item.raceLegacyPl": "Raças",
-  "TYPES.Item.spell": "Magia",
-  "TYPES.Item.spellPl": "Magias",
+  "TYPES.Item.spell": "Feitiço",
+  "TYPES.Item.spellPl": "Feitiços",
   "TYPES.Item.subclass": "Subclasse",
   "TYPES.Item.subclassPl": "Subclasses",
   "TYPES.Item.tool": "Ferramenta",
@@ -45,8 +45,8 @@
   "TYPES.Item.weapon": "Arma",
   "TYPES.Item.weaponPl": "Armas",
 
-  "DND5E.title": "Dungeon & Dragons Fifth Edition",
-  "DND5E.AbbreviationCR": "ND",
+  "DND5E.title": "Dungeon & Dragons Quinta Edição",
+  "DND5E.AbbreviationCR": "AD",
   "DND5E.AbbreviationConc": "Conc.",
   "DND5E.AbbreviationDC": "CD",
   "DND5E.AbbreviationKg": "kg",
@@ -54,6 +54,24 @@
   "DND5E.AbbreviationLevel": "Nvl.",
   "DND5E.AbbreviationLbs": "lbs.",
   "DND5E.AbbreviationSR": "DC",
+
+  "DND5E.ABILITY": {
+    "Configure": {
+      "Title": "Configurar {ability}"
+    },
+    "SECTIONS": {
+      "Bonuses": {
+        "Label": "Bônus de {ability}",
+        "Hint": "Esses bônus se aplicam apenas aos testes e salvaguardas feitos com {ability}."
+      },
+      "Global": {
+        "Label": "Bônus Globais",
+        "Hint": "Esses bônus se aplicam a todos os testes e salvaguardas."
+      },
+      "Score": "Valor de {ability}"
+    }
+  },
+
   "DND5E.Ability": "Atributo",
   "DND5E.Abilities": "Atributos",
   "DND5E.AbilityStr": "Força",
@@ -79,20 +97,9 @@
   "DND5E.AbilityModifier": "Modificador de Atributo",
   "DND5E.AbilityPromptText": "Que tipo de teste de {ability}?",
   "DND5E.AbilityPromptTitle": "Teste de Habilidade de {ability}",
-  "DND5E.AbilityUseHint": "Configure como você gostaria de usar a {type} {name}.",
-  "DND5E.AbilityUseUnavailableHint": "Não há usos deste item restantes!",
-  "DND5E.AbilityUseChargedHint": "Esse {type} está carregado e pronto para uso!",
-  "DND5E.AbilityUseRechargeHint": "This {type} is depleted and must be recharged!",
-  "DND5E.AbilityUseNormalHint": "Esse {type} tem {value} de {max} usos por {per} restantes.",
-  "DND5E.AbilityUseConsumableChargeHint": "O uso deste(a) {type} consumirá 1 de {value} cargas restante(s).",
-  "DND5E.AbilityUseConsumableQuantityHint": "Usando este(a) {type} consumirá uma quantidade de {quantity} restante(s)",
-  "DND5E.AbilityUseConsumableDestroyHint": "O uso deste(a) {type} consumirá sua carga final e será destruído.",
-  "DND5E.AbilityUseConsumableDestroyResourceHint": "O uso deste(a) {type} consumirá sua carga final de {name} e será destruído.",
-  "DND5E.AbilityUseConsume": "Consumir uso disponível?",
-  "DND5E.AbilityUseConsumeAction": "Consumir Uso",
   "DND5E.AbilityUseChargesLabel": "{value} Cargas",
   "DND5E.AbilityUseConsumableLabel": "{max} por {per}",
-  "DND5E.AbilityUseCast": "Conjurar Magia",
+  "DND5E.AbilityUseCast": "Conjurar Feitiço",
   "DND5E.AbilityUseUse": "Usar Atributo",
   "DND5E.AbilityUseConfig": "Configuração de Uso",
   "DND5E.AbilityBonuses": "Bônus de Atributo",
@@ -102,24 +109,24 @@
   "DND5E.AbilityCheckConfigure": "Testes de {ability}",
   "DND5E.AbilityCheckConfigurationHint": "Configurar bônus de testes.",
   "DND5E.AbilityConfigurationHint": "Configurar proficiência de salvaguarda, bônus de salvaguarda e bônus de teste.",
-  "DND5E.AbilityCheckBonus": "Bônus de teste",
+  "DND5E.AbilityCheckBonus": "Bônus de Teste",
   "DND5E.AbilityCheckGlobalBonusHint": "Este bônus se aplica a todos os testes de atributo feitos por este ator.",
   "DND5E.Action": "Ação",
   "DND5E.ActionAbbr": "A",
   "DND5E.ActionPl": "Ações",
   "DND5E.ActionAbil": "Teste de Atributo",
-  "DND5E.ActionEnch": "Encantamento",
-  "DND5E.ActionHeal": "Cura",
-  "DND5E.ActionMSAK": "Ataque Mágico Corpo-a-Corpo",
-  "DND5E.ActionMWAK": "Ataque Armado Corpo-a-Corpo",
+  "DND5E.ActionEnch": "Encantar",
+  "DND5E.ActionHeal": "Curar",
+  "DND5E.ActionMSAK": "Ataque Mágico Corpo a Corpo",
+  "DND5E.ActionMWAK": "Ataque Armado Corpo a Corpo",
   "DND5E.ActionOther": "Outros",
   "DND5E.ActionRSAK": "Ataque Mágico à Distância",
   "DND5E.ActionRWAK": "Ataque Armado à Distância",
   "DND5E.ActionSave": "Salvaguarda",
-  "DND5E.ActionSumm": "Invocação",
+  "DND5E.ActionSumm": "Invocaçar",
   "DND5E.ActionUtil": "Utilitário",
-  "DND5E.ActionWarningNoItem": "O item solicitado {item} não existe mais no ator {name}",
-  "DND5E.ActionWarningNoToken": "Você deve ter um ou mais tokens controlados para usar esta opção.",
+  "DND5E.ActionWarningNoItem": "O item requisitado {item} não existe mais no ator {name}",
+  "DND5E.ActionWarningNoToken": "Você deve ter pelo menos um token controlado para usar esta opção.",
 
   "DND5E.ACTIVATION": {
     "FIELDS": {
@@ -154,7 +161,7 @@
   "DND5E.ACTIVITY": {
     "Action": {
       "Create": "Criar Atividade",
-      "Delete": "Deletar Atividade"
+      "Delete": "Excluir Atividade"
     },
     "Title": {
       "one": "Atividade",
@@ -165,7 +172,7 @@
         "label": "Descrição",
         "chatFlavor": {
           "label": "Texto Narrativo",
-          "hint": "Texto adicional exibido na mensagem de bate-papo de ativação."
+          "hint": "Texto adicional exibido na mensagem de chat de ativação."
         }
       },
       "effects": {
@@ -184,11 +191,14 @@
       "Effect": "Efeito",
       "Identity": "Identidade",
       "Time": "Tempo"
+    },
+    "Warning": {
+      "UsageNotAllowed": "Não é possível usar esta atividade no momento."
     }
   },
 
   "DND5E.ActorWarningInvalidItem": "{itemType} itens não podem ser adicionados a um {actorType}.",
-  "DND5E.ActorWarningSingleton": "Apenas um {itemType} podem ser adicionados a um {actorType}.",
+  "DND5E.ActorWarningSingleton": "Apenas um único {itemType} pode ser adicionado a um {actorType}.",
   "DND5E.ActiveEffectOverrideWarning": "Esse valor está sendo modificado por um Efeito Ativo e não pode ser editado. Desabilite o efeito para editá-lo.",
   "DND5E.Add": "Add",
   "DND5E.AdditionalControls": "Controles Adicionais",
@@ -199,7 +209,7 @@
   "DND5E.ADVANCEMENT": {
     "AbilityScoreImprovement": {
       "Title": "Aumento no Valor de Atributo",
-      "Hint": "Permite que o jogador aumente um ou mais Valores de Atributo ou escolha um Talento opcional.",
+      "Hint": "Permite que o jogador aumente um ou mais Valores de Atributo ou escolha um talento opcional.",
       "CapDisplay": {
         "one": "Máximo de {points} ponto por Atributo",
         "other": "Máximo de {points} pontos por Atributo"
@@ -210,10 +220,10 @@
       "FIELDS": {
         "cap": {
           "label": "Limite de Pontos",
-          "hint": "Número máximo de pontos que um jogador pode atribuir a um único Atributo."
+          "hint": "Número máximo de pontos que um jogador pode atribuir a um atributo específico."
         },
         "locked": {
-          "label": "Trancado",
+          "label": "Bloqueado",
           "hint": "Atributo não pode ser melhorado."
         },
         "fixed": {
@@ -227,14 +237,14 @@
           "increase": "Aumentar Pontos"
         }
       },
-      "LockedHint": "Valores não podem ser modificados com o Talento selecionado.",
+      "LockedHint": "Valores não podem ser modificados com um talento selecionado.",
       "PointsRemaining": {
         "one": "{points} Ponto Restante",
         "other": "{points} Pontos Restantes"
       },
       "Warning": {
-        "Level": "Precisa ser no mínimo nível {level} para escolher esse Talento.",
-        "Type": "Apenas Características do tipo \"Talento\" podem ser escolhidos."
+        "Level": "Precisa ser no mínimo nível {level} para escolher esse talento.",
+        "Type": "Apenas talentos do tipo \"talento\" podem ser escolhidos."
       }
     },
     "SPELLCONFIG": {
@@ -242,7 +252,7 @@
         "uses": {
           "requireSlot": {
             "label": "Requer Espaço",
-            "hint": "Exige que um espaço de magia seja gasto ao usar os usos limitados. Se não marcado, os usos serão usos gratuitos adicionais que não consomem um slot."
+            "hint": "Requer que um espaço de magia seja consumido ao configurar usos limitados. Se não marcado, os usos podem ser gratuitos."
           }
         }
       },
@@ -251,14 +261,14 @@
     "Subclass": {
       "Title": "Subclasse",
       "Hint": "Especifique em qual nível esta classe recebe sua subclasse.",
-      "FlowHint": "Selecione uma subclasse na aba Características após a conclusão do nível."
+      "FlowHint": "Selecione uma subclasse na aba Talentos após a conclusão do nível."
     }
   },
 
-  "DND5E.AdvancementChoices": "chances",
+  "DND5E.AdvancementChoices": "escolhas",
   "DND5E.AdvancementClassRestriction": "Restrição de Classe",
   "DND5E.AdvancementClassRestrictionNone": "Todas as Classes",
-  "DND5E.AdvancementClassRestrictionPrimary": "Apenas Classe Primária",
+  "DND5E.AdvancementClassRestrictionPrimary": "Apenas Classe Original",
   "DND5E.AdvancementClassRestrictionSecondary": "Apenas Multiclasse",
   "DND5E.AdvancementConfigurationActionDisable": "Desabilitar Configuração",
   "DND5E.AdvancementConfigurationActionEnable": "Habilitar Configuração",
@@ -266,12 +276,12 @@
   "DND5E.AdvancementConfigurationModeEnabled": "Configuração Habilitada",
   "DND5E.AdvancementConfigureTitle": "Configurar Avanço de {item}",
   "DND5E.AdvancementConfigureAllowDrops": "Permitir Soltar Itens",
-  "DND5E.AdvancementConfigureAllowDropsHint": "Os jogadores deveriam ser capazes de colocar suas próprias escolhas neste avanço?",
+  "DND5E.AdvancementConfigureAllowDropsHint": "Os jogadores deveriam ser capazes de fazer suas próprias escolhas neste avanço?",
   "DND5E.AdvancementConfigureDropAreaHint": "Solte itens aqui para adicioná-los as escolhas que o jogador pode escolher.",
   "DND5E.AdvancementConfiguredComplete": "Totalmente Configurado",
   "DND5E.AdvancementConfiguredIncomplete": "Não Configurado",
   "DND5E.AdvancementControlCreate": "Criar Avanço",
-  "DND5E.AdvancementControlDelete": "Deletar Avanço",
+  "DND5E.AdvancementControlDelete": "Excluir Avanço",
   "DND5E.AdvancementControlDuplicate": "Duplicar Avanço",
   "DND5E.AdvancementControlEdit": "Editar Avanço",
   "DND5E.AdvancementCustomIcon": "Icone Personalizado",
@@ -571,10 +581,10 @@
   "DND5E.BonusActionAbbr": "AB",
   "DND5E.BonusAttack": "Bônus de Ataque",
   "DND5E.BonusDamage": "Bônus de Dano",
-  "DND5E.BonusMSAttack": "Bônus de Ataque Mágico Corpo-a-Corpo",
-  "DND5E.BonusMSDamage": "Bônus de Dano Mágico Corpo-a-Corpo",
-  "DND5E.BonusMWAttack": "Bônus de Ataque Armado Corpo-a-Corpo",
-  "DND5E.BonusMWDamage": "Bônus de Dano Armado Corpo-a-Corpo",
+  "DND5E.BonusMSAttack": "Bônus de Ataque Mágico Corpo a Corpo",
+  "DND5E.BonusMSDamage": "Bônus de Dano Mágico Corpo a Corpo",
+  "DND5E.BonusMWAttack": "Bônus de Ataque Armado Corpo a Corpo",
+  "DND5E.BonusMWDamage": "Bônus de Dano Armado Corpo a Corpo",
   "DND5E.BonusRSAttack": "Bônus de Ataque Mágico à Distância",
   "DND5E.BonusRSDamage": "Bônus de Dano Mágico à Distância",
   "DND5E.BonusRWAttack": "Bônus de Ataque Armado à Distância",
@@ -938,7 +948,7 @@
     "Action": {
       "ConsumeResource": "Consumir Recurso",
       "Create": "Criar Alvo de Consumo",
-      "Delete": "Deletar Alvo de Consumo",
+      "Delete": "Excluir Alvo de Consumo",
       "RefundResource": "Devolver Recurso"
     },
     "Scaling": {
@@ -1170,7 +1180,7 @@
     "Part": {
       "Action": {
         "Create": "Criar Parte de Dano",
-        "Delete": "Deletar Parte de Dano"
+        "Delete": "Excluir Parte de Dano"
       }
     },
     "Scaling": {
@@ -1314,7 +1324,7 @@
   "DND5E.EFFECT": {
     "Action": {
       "Create": "Criar Efeito",
-      "Delete": "Deletar Efeito",
+      "Delete": "Excluir Efeito",
       "Dissociate": "Dissociar Efeito"
     },
     "Empty": "Nenhum efeito associado. Use o botão <i class=\"fas fa-plus\"></i> acima para criar um, ou selecione um efeito existente no menu suspenso.",
@@ -1396,7 +1406,7 @@
     "Enchantment": {
       "Action": {
         "Create": "Criar Encantamento",
-        "Delete": "Deletar Encantamento"
+        "Delete": "Excluir Encantamento"
       },
       "Empty": "Nenhum encantamento associado. Use o botão <i class=\"fas fa-plus\"></i> acima para criar um, ou selecione um encantamento existente no menu suspenso."
     },
@@ -1643,7 +1653,7 @@
   "DND5E.FlagsWeaponCritThresholdHint": "Um intervalo de Acerto Crítico expandido para Ataques com Armas.",
   "DND5E.FlagsSpellCritThreshold": "Intervalo de Acerto Crítico com Magias",
   "DND5E.FlagsSpellCritThresholdHint": "Um intervalo de Acerto Crítico expandido para Ataques Mágicos.",
-  "DND5E.FlagsMeleeCriticalDice": "Dado de Dano Crítico Corpo-a-Corpo",
+  "DND5E.FlagsMeleeCriticalDice": "Dado de Dano Crítico Corpo a Corpo",
   "DND5E.FlagsMeleeCriticalDiceHint": "O número de dados de dano extra adicionados ao acerto crítico de armas corpo-a-corpo.",
   "DND5E.Flat": "Fixo",
   "DND5E.Formula": "Fórmula",
@@ -2613,7 +2623,7 @@
         },
         "prompt": {
           "label": "Prompt de Invocação",
-          "hint": "Desative o aviso de invocação quando o item for usado. Os jogadores ainda poderão convocar a partir do cartão de bate-papo."
+          "hint": "Desative o aviso de invocação quando o item for usado. Os jogadores ainda poderão convocar a partir do cartão de chat."
         }
       }
     },
@@ -2639,7 +2649,7 @@
       "Label": "Perfis de Invocação",
       "Action": {
         "Create": "Criar Perfil",
-        "Delete": "Deletar Perfil"
+        "Delete": "Excluir Perfil"
       },
       "ChallengeRatingLabel": "Nível de Desafio de {cr} ou menor",
       "DropHint": "Solte Criatura Aqui",
@@ -2691,7 +2701,7 @@
         },
         "prompt": {
           "label": "Prompt de Modelo Medida",
-          "hint": "O jogador deve ser solicitado a colocar um modelo medida? Os jogadores ainda poderão colocar modelos pelo cartão de bate-papo se o prompt estiver desabilitado."
+          "hint": "O jogador deve ser solicitado a colocar um modelo medida? Os jogadores ainda poderão colocar modelos pelo cartão de chat se o prompt estiver desabilitado."
         },
         "template": {
           "label": "Área de Efeito",
@@ -2937,7 +2947,7 @@
     "Recovery": {
       "Action": {
         "Create": "Criar Perfil de Recuperação",
-        "Delete": "Deletar Perfil de Recuperação"
+        "Delete": "Excluir Perfil de Recuperação"
       },
       "Recharge": {
         "Label": "Recarga",
@@ -3046,13 +3056,13 @@
 
   "DND5E.WeaponCategory": "Arma {category}",
   "DND5E.WeaponImprov": "Improvisada",
-  "DND5E.WeaponMartialM": "Marcial Corpo-a-Corpo",
+  "DND5E.WeaponMartialM": "Marcial Corpo a Corpo",
   "DND5E.WeaponMartialProficiency": "Marcial",
   "DND5E.WeaponMartialR": "Marcial à Distância",
   "DND5E.WeaponNatural": "Natural",
   "DND5E.WeaponOtherProficiency": "Outro",
   "DND5E.WeaponSiege": "Arma de Cerco",
-  "DND5E.WeaponSimpleM": "Simples Corpo-a-Corpo",
+  "DND5E.WeaponSimpleM": "Simples Corpo a Corpo",
   "DND5E.WeaponSimpleProficiency": "Simples",
   "DND5E.WeaponSimpleR": "Simples à Distância",
   "DND5E.Weight": "Peso",
@@ -3357,7 +3367,7 @@
     },
     "COLLAPSETRAYS": {
       "Name": "Recolher Cartões no Chat",
-      "Hint": "Recolha automaticamente as bandejas de danos, acertos e efeitos que aparecem nos cartões de bate-papo.",
+      "Hint": "Recolha automaticamente as bandejas de danos, acertos e efeitos que aparecem nos cartões de chat.",
       "Always": "Recolher Todos",
       "Older": "Recolher Bandeijas Antigas",
       "Never": "Expandir Todos"

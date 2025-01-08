@@ -2,7 +2,7 @@
   "id": "dnd5e_2024_pt-BR",
   "title": "DnD5e Português do Brasil (2024)",
   "description": "Traduz o sistema D&D 5E para o Português do Brasil",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
