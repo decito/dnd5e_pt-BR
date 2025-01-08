@@ -51,7 +51,7 @@ Este é um módulo de tradução comunitária para o sistema [Dungeons & Dragons
 1. Abra o aplicativo Foundry Virtual Tabletop.
 2. Clique no botão "Instalar Módulo" na seção "Sistemas de Jogo".
 3. Na janela "Instalar Módulo", insira o seguinte URL no campo "URL do Manifesto":
-   `https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json`
+   <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
 4. Clique no botão "Instalar".
 5. Após a instalação, ative o módulo nas configurações do seu mundo de jogo.
 6. Reinicie o Foundry Virtual Tabletop.
