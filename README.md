@@ -35,7 +35,7 @@ This is a community translation module for the [Dungeons & Dragons 5th Edition (
 1. Open the Foundry Virtual Tabletop application.
 2. Click the "Install Module" button in the "Game Systems" section.
 3. In the "Install Module" window, enter the following URL into the "Manifest URL" field:
-   `https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json`
+   <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
 4. Click the "Install" button.
 5. After installation, enable the module in your game world settings.
 6. Restart Foundry Virtual Tabletop.
