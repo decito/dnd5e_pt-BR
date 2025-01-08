@@ -6,10 +6,15 @@ Check instructions in [pt-BR](#português) or [en-US](#english).
 
 ## Status
 
+Strings checked / Textos verificados
+
+```text
 system:
 
 - 279/3410 (8.2%)
+```
 
+```text
 compendium:
 
 - backgrounds: 0/13 (0.0%)
@@ -23,6 +28,7 @@ compendium:
 - spells: 0/310 (0.0%)
 - subclasses: 0/53 (0.0%)
 - trade goods: 0/97 (0.0%)
+```
 
 ## English
 
@@ -33,12 +39,12 @@ This is a community-driven update to the outdated Brazilian Portuguese translati
 ### Installation
 
 1. Open the Foundry Virtual Tabletop application.
-2. Click the "Install Module" button in the "Game Systems" section.
-3. In the "Install Module" window, enter the following URL into the "Manifest URL" field:
+2. Click the "Install Module" button in the "Add-on Modules" section.
+3. Enter the following URL into the "Manifest URL" field:
    <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
 4. Click the "Install" button.
 5. After installation, enable the module in your game world settings.
-6. Restart Foundry Virtual Tabletop.
+6. Enjoy!
 
 ## Português
 
@@ -49,9 +55,9 @@ Este projeto é uma atualização comunitária do módulo desatualizado de tradu
 ### Instalação
 
 1. Abra o aplicativo Foundry Virtual Tabletop.
-2. Clique no botão "Instalar Módulo" na seção "Sistemas de Jogo".
-3. Na janela "Instalar Módulo", insira o seguinte URL no campo "URL do Manifesto":
+2. Clique no botão "Instalar Módulo" na seção "Módulos Adicionais".
+3. Insira o seguinte URL no campo "URL do Manifesto":
    <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
 4. Clique no botão "Instalar".
 5. Após a instalação, ative o módulo nas configurações do seu mundo de jogo.
-6. Reinicie o Foundry Virtual Tabletop.
+6. Aproveite!
