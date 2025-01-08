@@ -4,6 +4,26 @@
 
 Check instructions in [pt-BR](#português) or [en-US](#english).
 
+## Status
+
+system:
+
+- 279/3410 (8.2%)
+
+compendium:
+
+- backgrounds: 0/13 (0.0%)
+- classes: 0/53 (0.0%)
+- classes features: 0/961 (0.0%)
+- items: 0/313 (0.0%)
+- monster features: 0/1013 (0.0%)
+- monsters: 0/977 (0.0%)
+- races: 0/121 (0.0%)
+- rules: 0/59 (0.0%)
+- spells: 0/310 (0.0%)
+- subclasses: 0/53 (0.0%)
+- trade goods: 0/97 (0.0%)
+
 ## English
 
 ### Overview
