@@ -1,0 +1,754 @@
+{
+	"label": "Equipamentos",
+	"entries": {
+		"Acid": {
+			"name": "Ácido",
+			"description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.</p>"
+		},
+		"Alchemist's Fire": {
+			"name": "Fogo Alquimico",
+			"description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist’s Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see the rules glossary).</p>"
+		},
+		"Alchemist's Supplies": {
+			"name": "Suprimentos de Alquimista",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a substance (DC 15), or start a fire (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acid}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Alchemist’s Fire}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Component Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>"
+		},
+		"Ammunition (Varies)": {
+			"name": "Munição (Vários)",
+			"description": "<p>Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case}</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Bullets, Firearm}</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Bullets, Sling}</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</td><td>1 lb.</td><td>1 GP</td></tr></tbody></table>"
+		},
+		"Amulet": {
+			"name": "Amuleto",
+			"description": "<p><em><strong>Usage Requirement: </strong>Worn or held</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+		},
+		"Antitoxin": {
+			"name": "Antitoxína",
+			"description": "<p>As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.</p>"
+		},
+		"Arcane Focus (Varies)": {
+			"name": "Foco Arcano (Vários)",
+			"description": "<p>An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><table><caption>Arcane Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Crystal}</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orb}</td><td>3 lb.</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Rod}</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Staff} (also a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>"
+		},
+		"Arrows": {
+			"name": "Flechas",
+			"description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+		},
+		"Backpack": {
+			"name": "Mochila",
+			"description": "<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p>"
+		},
+		"Bagpipes": {
+			"name": "Gaita",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Ball Bearings": {
+			"name": "Esferas de Metal",
+			"description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>"
+		},
+		"Barrel": {
+			"name": "Barril",
+			"description": "<p>A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.</p>"
+		},
+		"Basket": {
+			"name": "Cesta",
+			"description": "<p>A Basket holds up to 40 pounds within 2 cubic feet.</p>"
+		},
+		"Battleaxe": {
+			"name": "Machado de Batalha"
+		},
+		"Bedroll": {
+			"name": "Saco de Dormir",
+			"description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+		},
+		"Bell": {
+			"name": "Sino",
+			"description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>"
+		},
+		"Blanket": {
+			"name": "Cobertor",
+			"description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the <em>Dungeon Master</em> <em>’s Guide</em>).</p>"
+		},
+		"Block and Tackle": {
+			"name": "Roldana e Polias",
+			"description": "<p>A Block and Tackle allows you to hoist up to four times the weight you can normally lift.</p>"
+		},
+		"Blowgun": {
+			"name": "Zarabatana"
+		},
+		"Bolts": {
+			"name": "Virotes",
+			"description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Case}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+		},
+		"Book": {
+			"name": "Livro",
+			"description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
+		},
+		"Bottle, Glass": {
+			"name": "Garrafa de Vidro",
+			"description": "<p>A Glass Bottle holds up to 1½ pints.</p>"
+		},
+		"Breastplate": {
+			"name": "Couraça Peitoral"
+		},
+		"Brewer's Supplies": {
+			"name": "Suprimentos de Cervejeiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect poisoned drink (DC 15), or identify alcohol (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}</p>"
+		},
+		"Bucket": {
+			"name": "Balde",
+			"description": "<p>A Bucket holds up to half a cubic foot of contents.</p>"
+		},
+		"Bullets, Firearm": {
+			"name": "Balas de Arma de Fogo",
+			"description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+		},
+		"Bullets, Sling": {
+			"name": "Balas de Funda",
+			"description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+		},
+		"Bullseye Lantern": {
+			"name": "Lanterna Foca-Facho",
+			"description": "<p>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</p>"
+		},
+		"Burglar's Pack": {
+			"name": "Kit de Assaltante",
+			"description": "<p>A Burglar’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+		},
+		"Calligrapher's Supplies": {
+			"name": "Suprimentos de Calígrafo",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Write text with impressive flourishes that guard against forgery (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>"
+		},
+		"Caltrops": {
+			"name": "Estrepes",
+			"description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>"
+		},
+		"Candle": {
+			"name": "Vela",
+			"description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>"
+		},
+		"Carpenter's Tools": {
+			"name": "Ferramentas de Carpinteiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Seal or pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barrel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Portable Ram}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torch}</p>"
+		},
+		"Cartographer's Tools": {
+			"name": "Ferramentas de Cartógrafo",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Draft a map of a small area (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Map}</p>"
+		},
+		"Case, Crossbow Bolt": {
+			"name": "Aljava de Virotes",
+			"description": "<p>A Crossbow Bolt Case holds up to 20 Bolts.</p>"
+		},
+		"Case, Map or Scroll": {
+			"name": "Estojo de Mapa ou Pergaminho",
+			"description": "<p>A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.</p>"
+		},
+		"Chain": {
+			"name": "Corrente",
+			"description": "<p>As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Strength (Athletics) check. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.</p>"
+		},
+		"Chain Mail": {
+			"name": "Cota de Malha"
+		},
+		"Chain Shirt": {
+			"name": "Cota de Malha Parcial"
+		},
+		"Chest": {
+			"name": "Baú",
+			"description": "<p>A Chest holds up to 12 cubic feet of contents.</p>"
+		},
+		"Climber's Kit": {
+			"name": "Kit de Escalada",
+			"description": "<p>A Climber’s Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber’s Kit to anchor yourself; when you do, you can’t fall more than 25 feet from the anchor point, and you can’t move more than 25 feet from there without undoing the anchor as a Bonus Action.</p>"
+		},
+		"Clothes, Fine": {
+			"name": "Roupas Finas",
+			"description": "<p>Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.</p>"
+		},
+		"Clothes, Traveler's": {
+			"name": "Roupas de Viagem",
+			"description": "<p>Traveler’s Clothes are resilient garments designed for travel in various environments.</p>"
+		},
+		"Club": {
+			"name": "Clava"
+		},
+		"Cobbler's Tools": {
+			"name": "Ferramentas de Sapateiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Climber’s Kit}</p>"
+		},
+		"Component Pouch": {
+			"name": "Bolsa para Componentes",
+			"description": "<p>A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.</p>"
+		},
+		"Constellations Scroll": {
+			"name": "Pergaminho de Constelação",
+			"description": "<p>A scroll bearing depictions of constellations that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+		},
+		"Cook's Utensils": {
+			"name": "Utensílios de Cozinheiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Improve food’s flavor (DC 10), or detect spoiled or poisoned food (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}</p>"
+		},
+		"Costume": {
+			"name": "Roupas de Fantasia",
+			"description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>"
+		},
+		"Crowbar": {
+			"name": "Pé-de-cabra",
+			"description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied.</p>"
+		},
+		"Crystal": {
+			"name": "Cristal",
+			"description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
+		},
+		"Dagger": {
+			"name": "Adaga"
+		},
+		"Dart": {
+			"name": "Dardos"
+		},
+		"Dice": {
+			"name": "Dados",
+			"description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+		},
+		"Diplomat's Pack": {
+			"name": "Kit de Diplomata",
+			"description": "<p>A Diplomat’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pens}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Map or Scroll Cases}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{flasks of Oil}, 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Paper}, 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>"
+		},
+		"Disguise Kit": {
+			"name": "Kit de Disfarce",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Apply makeup (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costume}</p>"
+		},
+		"Dragonchess": {
+			"name": "Xadrez Dragão",
+			"description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+		},
+		"Druidic Focus (Varies)": {
+			"name": "Foco Druídico (Vários)",
+			"description": "<p>A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><table><caption>Druidic Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Sprig of mistletoe}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Wooden staff} (also a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Yew wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>"
+		},
+		"Drum": {
+			"name": "Tambor",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Dulcimer": {
+			"name": "Xilofone",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Dungeoneer's Pack": {
+			"name": "Kit de Explorador de Masmorras",
+			"description": "<p>A Dungeoneer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, 2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+		},
+		"Ebony-bound Atlas": {
+			"name": "Atlas Encadernado em Ébano",
+			"description": "<p>A collection of maps bound in an ebony cover that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+		},
+		"Emblem": {
+			"name": "Emblema",
+			"description": "<p><em><strong>Usage Requirement: </strong>Borne on fabric or a Shield</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+		},
+		"Engraved Crystal": {
+			"name": "Cristal Marcado",
+			"description": "<p>A crystal engraved with starry patterns that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+		},
+		"Entertainer's Pack": {
+			"name": "Kit de Artista",
+			"description": "<p>An Entertainer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, 8 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 9 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+		},
+		"Etched Glass Disk": {
+			"name": "Disco de Vidro Marcado",
+			"description": "<p>A glass disk etched with constellations that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+		},
+		"Explorer's Pack": {
+			"name": "Kit de Aventureiro",
+			"description": "<p>An Explorer’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, 2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}.</p>"
+		},
+		"Fine Clothes": {
+			"name": "Roupas Finas",
+			"description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
+		},
+		"Flail": {
+			"name": "Mangual"
+		},
+		"Flask": {
+			"name": "Frasco",
+			"description": "<p>A Flask holds up to 1 pint.</p>"
+		},
+		"Flute": {
+			"name": "Flauta",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Forgery Kit": {
+			"name": "Kit de Falsificação",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)</p>"
+		},
+		"Gaming Set (Varies)": {
+			"name": "Conjunto de Jogos (Vários)",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom <strong>Weight:</strong> —</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p><table><caption>Variants</caption><thead><tr><td>Set</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstDice000000]{Dice}</td><td>1 SP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstDragonches]{Dragonchess}</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstPlayingcar]{Playing cards}</td><td><p>5 SP</p></td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstThreedrago]{Three-dragon ante}</td><td>1 GP</td></tr></tbody></table>"
+		},
+		"Glaive": {
+			"name": "Gládio"
+		},
+		"Glassblower's Tools": {
+			"name": "Ferramentas de Vidreiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern what a glass object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Magnifying Glass}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Spyglass}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial}</p>"
+		},
+		"Grappling Hook": {
+			"name": "Arpéu",
+			"description": "<p>As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.</p>"
+		},
+		"Greataxe": {
+			"name": "Machado Grande"
+		},
+		"Greatclub": {
+			"name": "Clava Grande"
+		},
+		"Greatsword": {
+			"name": "Espada Grande"
+		},
+		"Halberd": {
+			"name": "Alabarda"
+		},
+		"Half Plate Armor": {
+			"name": "Armadura de Placas Parcial"
+		},
+		"Hand Crossbow": {
+			"name": "Besta de Mão"
+		},
+		"Handaxe": {
+			"name": "Machadinha"
+		},
+		"Healer's Kit": {
+			"name": "Kit de Curandeiro",
+			"description": "<p>A Healer’s Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.</p>"
+		},
+		"Heavy Crossbow": {
+			"name": "Besta Pesada"
+		},
+		"Herbalism Kit": {
+			"name": "Kit de Herbalismo",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a plant (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxin}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Candle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Healer’s Kit}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Potion of Healing}</p>"
+		},
+		"Hide Armor": {
+			"name": "Gibão de Peles"
+		},
+		"Holy Symbol (Varies)": {
+			"name": "Símbolo Sagrado (Vários)",
+			"description": "<p>A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p><p>The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.</p><table><caption>Holy Symbols</caption><thead><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amulet} (worn or held)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblem} (borne on fabric or a Shield)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Reliquary} (held)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>"
+		},
+		"Holy Water": {
+			"name": "Água Benta",
+			"description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>"
+		},
+		"Hooded Lantern": {
+			"name": "Lanterna Coberta",
+			"description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>"
+		},
+		"Horn": {
+			"name": "Trombeta",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Hunting Trap": {
+			"name": "Armadilha de Caça",
+			"description": "<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals [[/damage 1 type=piercing]] damage to the trapped creature.</p>"
+		},
+		"Ink": {
+			"name": "Frasco de Tinta",
+			"description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
+		},
+		"Ink Pen": {
+			"name": "Caneta Tinteiro",
+			"description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
+		},
+		"Javelin": {
+			"name": "Azagaia"
+		},
+		"Jeweler's Tools": {
+			"name": "Ferramentas de Joalheiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern a gem’s value (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> Arcane Focus, Holy Symbol</p>"
+		},
+		"Jug": {
+			"name": "Jarro",
+			"description": "<p>A Jug holds up to 1 gallon.</p>"
+		},
+		"Ladder": {
+			"name": "Escada",
+			"description": "<p>A Ladder is 10 feet tall. You must climb to move up or down it.</p>"
+		},
+		"Lamp": {
+			"name": "Lanterna",
+			"description": "<p>A Lamp burns @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>"
+		},
+		"Lance": {
+			"name": "Lança de Montaria"
+		},
+		"Lantern, Bullseye": {
+			"name": "Lanterna Foca-Facho",
+			"description": "<p>A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.</p>"
+		},
+		"Lantern, Hooded": {
+			"name": "Lanterna Coberta",
+			"description": "<p>A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.</p>"
+		},
+		"Leather Armor": {
+			"name": "Armadura de Couro"
+		},
+		"Leatherworker's Tools": {
+			"name": "Ferramentas de Coureiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Add a design to a leather item (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Sling}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Whip}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Hide Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Map or Scroll Case}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Waterskin}</p>"
+		},
+		"Light Crossbow": {
+			"name": "Besta Leve"
+		},
+		"Light Hammer": {
+			"name": "Martelo Leve"
+		},
+		"Lock": {
+			"name": "Cadeado",
+			"description": "<p>A Lock comes with a key. Without the key, a creature can use @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools} to pick this Lock with a successful [[/tool thief dex 15]] check.</p>"
+		},
+		"Longbow": {
+			"name": "Arco Longo"
+		},
+		"Longsword": {
+			"name": "Espada Longa"
+		},
+		"Lute": {
+			"name": "Alaúde",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Lyre": {
+			"name": "Lira",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Mace": {
+			"name": "Maça"
+		},
+		"Magnifying Glass": {
+			"name": "Lupa",
+			"description": "<p>A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.</p>"
+		},
+		"Manacles": {
+			"name": "Grilhões",
+			"description": "<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p><p>Each set of Manacles comes with a key. Without the key, a creature can use Thieves’ Tools to pick the Manacles’ lock with a successful [[/tool thief dex 15]] check.</p>"
+		},
+		"Map": {
+			"name": "Mapa",
+			"description": "<p>If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.</p>"
+		},
+		"Map or Scroll Case": {
+			"name": "Estojo de Mapa ou Pergaminho",
+			"description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
+		},
+		"Mason's Tools": {
+			"name": "Ferramentas de Pedreiro/Construtor",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Chisel a symbol or hole in stone (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Block and Tackle}</p>"
+		},
+		"Maul": {
+			"name": "Malho"
+		},
+		"Mirror": {
+			"name": "Espelho",
+			"description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>"
+		},
+		"Morningstar": {
+			"name": "Maça Estrela"
+		},
+		"Musical Instrument (Varies)": {
+			"name": "Instrumento Musical (Vários)",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Charisma <strong>Weight:</strong> Varies</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p><table><caption>Variants</caption><thead><tr><td>Instrument</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusBagpipes00]{Bagpipes}</td><td>1 lb.</td><td>30 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusDrum000000]{Drum}</td><td>3 lb.</td><td>6 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusDulcimer00]{Dulcimer}</td><td>10 lb.</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusFlute00000]{Flute}</td><td>1 lb.</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusHorn000000]{Horn}</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusLute000000]{Lute}</td><td>2 lb.</td><td>35 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusLyre000000]{Lyre}</td><td>2 lb.</td><td>30 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusPanflute00]{Pan flute}</td><td>2 lb.</td><td>12 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusShawm00000]{Shawm}</td><td>1 lb.</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusViol000000]{Viol}</td><td>1 lb.</td><td>30 GP</td></tr></tbody></table>"
+		},
+		"Musket": {
+			"name": "Mosquete"
+		},
+		"Navigator's Tools": {
+			"name": "Ferramentas de Navegador",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p>"
+		},
+		"Needles": {
+			"name": "Agulhas",
+			"description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+		},
+		"Net": {
+			"name": "Rede",
+			"description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the &amp;Reference[Restrained] condition until it escapes. The target succeeds automatically if it is Huge or larger.</p><p>To escape, the target or a creature within 5 feet of it must take an action to make a DC 10 Strength (Athletics) check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.</p>"
+		},
+		"Oil": {
+			"name": "Óleo",
+			"description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn’t need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>"
+		},
+		"Orb": {
+			"name": "Orbe",
+			"description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
+		},
+		"Padded Armor": {
+			"name": "Armadura Acolchoada"
+		},
+		"Painter's Supplies": {
+			"name": "Suprimentos de Pintor",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Paint a recognizable image of something you’ve seen (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> Druidic Focus, Holy Symbol</p>"
+		},
+		"Pan Flute": {
+			"name": "Flauta de Pan",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Paper": {
+			"name": "Papel",
+			"description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>"
+		},
+		"Parchment": {
+			"name": "Pergaminho",
+			"description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
+		},
+		"Perfume": {
+			"name": "Perfume",
+			"description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>"
+		},
+		"Pike": {
+			"name": "Lança Longa"
+		},
+		"Pistol": {
+			"name": "Pistola"
+		},
+		"Plate Armor": {
+			"name": "Armadura de Placas"
+		},
+		"Playing Cards": {
+			"name": "Cartas",
+			"description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+		},
+		"Poison, Basic": {
+			"name": "Veneno Básico",
+			"description": "<p>As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a roll for the Poison damage.</p></section>"
+		},
+		"Poisoner's Kit": {
+			"name": "Kit de Veneno",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Basic Poison}</p>"
+		},
+		"Pole": {
+			"name": "Baliza",
+			"description": "<p>A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.</p>"
+		},
+		"Pot, Iron": {
+			"name": "Panela de Ferro",
+			"description": "<p>An Iron Pot holds up to 1 gallon.</p>"
+		},
+		"Potion of Healing": {
+			"name": "Poção de Cura",
+			"description": "<p>This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.</p>"
+		},
+		"Potter's Tools": {
+			"name": "Ferramentas de Ceramista",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern what a ceramic object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jug}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}</p>"
+		},
+		"Pouch": {
+			"name": "Bolsa",
+			"description": "<p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>"
+		},
+		"Priest's Pack": {
+			"name": "Kit de Sacerdote",
+			"description": "<p>A Priest’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Holy Water}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 7 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>"
+		},
+		"Quarterstaff": {
+			"name": "Bastão"
+		},
+		"Quiver": {
+			"name": "Aljava",
+			"description": "<p>A Quiver holds up to 20 Arrows.</p>"
+		},
+		"Ram, Portable": {
+			"name": "Aríete Portátil",
+			"description": "<p>You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.</p>"
+		},
+		"Rapier": {
+			"name": "Rapieira"
+		},
+		"Rations": {
+			"name": "Rações",
+			"description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
+		},
+		"Reliquary": {
+			"name": "Relicário",
+			"description": "<p><em><strong>Usage Requirement: </strong>Held</em></p><p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+		},
+		"Ring Mail": {
+			"name": "Cota de Anéis"
+		},
+		"Robe": {
+			"name": "Túnica",
+			"description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>"
+		},
+		"Rod": {
+			"name": "Vara",
+			"description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
+		},
+		"Rope": {
+			"name": "Corda",
+			"description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>"
+		},
+		"Sack": {
+			"name": "Saco",
+			"description": "<p>A Sack holds up to 30 pounds within 1 cubic foot.</p>"
+		},
+		"Scale Mail": {
+			"name": "Lórica de Escamas"
+		},
+		"Scholar's Pack": {
+			"name": "Kit de Diplomata",
+			"description": "<p>A Scholar’s Pack contains the following items: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Book}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lamp}, 10 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil}, 10 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}.</p>"
+		},
+		"Scimitar": {
+			"name": "Cimitarra"
+		},
+		"Shawm": {
+			"name": "Oboé",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Shield": {
+			"name": "Escudo",
+			"description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
+		},
+		"Shortbow": {
+			"name": "Arco Curto"
+		},
+		"Shortsword": {
+			"name": "Espada Curta"
+		},
+		"Shovel": {
+			"name": "Pá",
+			"description": "<p>Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.</p>"
+		},
+		"Sickle": {
+			"name": "Foice"
+		},
+		"Signal Whistle": {
+			"name": "Apito Sinalizador",
+			"description": "<p>When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.</p>"
+		},
+		"Sling": {
+			"name": "Funda"
+		},
+		"Smith's Tools": {
+			"name": "Ferramentas de Ferreiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Firearm Bullets}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Iron Spikes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Sling Bullets}</p>"
+		},
+		"Spear": {
+			"name": "Lança"
+		},
+		"Spell Scroll, Cantrip": {
+			"name": "Pergaminho Mágico de 0º Círculo (Truque)",
+			"description": "<p>A <em>Spell Scroll</em> (Cantrip) or @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{Spell Scroll (Level 1)} is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll’s creator. If the spell is on your class’s spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>"
+		},
+		"Spell Scroll, Level 1": {
+			"name": "Pergaminho Mágico de 1º Círculo",
+			"description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{Spell Scroll (Cantrip)} or <em>Spell Scroll</em> (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll’s creator. If the spell is on your class’s spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>"
+		},
+		"Spikes, Iron": {
+			"name": "Estacas de Ferro",
+			"description": "<p>Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.</p>"
+		},
+		"Splint Armor": {
+			"name": "Armadura de Cota de Talas"
+		},
+		"Sprig of mistletoe": {
+			"name": "Ramo de Visco",
+			"description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
+		},
+		"Spyglass": {
+			"name": "Luneta",
+			"description": "<p>Objects viewed through a Spyglass are magnified to twice their size.</p>"
+		},
+		"Staff": {
+			"name": "Cajado",
+			"description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>"
+		},
+		"Stone Tablet": {
+			"name": "Tábua de Pedra",
+			"description": "<p>A stone tablet with fine holes drilled through it that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+		},
+		"String": {
+			"name": "Fio (3 metros)",
+			"description": "<p>String is 10 feet long. You can tie a knot in it as a Utilize action.</p>"
+		},
+		"Studded Leather Armor": {
+			"name": "Armadura de Couro Batido"
+		},
+		"Tent": {
+			"name": "Tenda",
+			"description": "<p>A Tent sleeps up to two Small or Medium creatures.</p>"
+		},
+		"Thieves' Tools": {
+			"name": "Ferramentas de Ladrão",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>"
+		},
+		"Three-dragon ante": {
+			"name": "Três Dragões",
+			"description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>"
+		},
+		"Tinderbox": {
+			"name": "Caixa de Fogo",
+			"description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>"
+		},
+		"Tinker's Tools": {
+			"name": "Ferramentas de Funileiro",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Musket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Flask}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Lock}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Signal Whistle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Tinderbox}</p>"
+		},
+		"Tooled Owlbear Hide": {
+			"name": "Couro de Urso-Coruja Trabalhado",
+			"description": "<p>An owlbear hide tooled with stellar symbols that can be used as a Spellcasting Focus by Circle of the Star Druids. It is a Tiny object.</p>"
+		},
+		"Torch": {
+			"name": "Tocha",
+			"description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
+		},
+		"Trident": {
+			"name": "Tridente"
+		},
+		"Unarmed Strike": {
+			"name": "Ataque Desarmado"
+		},
+		"Vial": {
+			"name": "Frasco",
+			"description": "<p>A Vial holds up to 4 ounces.</p>"
+		},
+		"Viol": {
+			"name": "Violino",
+			"description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>"
+		},
+		"Wand": {
+			"name": "Varinha",
+			"description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
+		},
+		"War Pick": {
+			"name": "Picareta de Guerra"
+		},
+		"Warhammer": {
+			"name": "Martelo de Guerra"
+		},
+		"Water (Pint)": {
+			"name": "Água (Litro)",
+			"description": "<p>If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+		},
+		"Waterskin": {
+			"name": "Odre de Água",
+			"description": "<p>A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk &amp;Reference[dehydration].</p>"
+		},
+		"Weaver's Tools": {
+			"name": "Ferramentas de Tecelão",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Padded Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Sack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{String}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tent}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Traveler’s Clothes}</p>"
+		},
+		"Whip": {
+			"name": "Chicote"
+		},
+		"Woodcarver's Tools": {
+			"name": "Ferramentas de Entalhador",
+			"description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Carve a pattern in wood (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Bolts}, Druidic Focus, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Needles}</p>"
+		},
+		"Wooden staff": {
+			"name": "Cajado de Madeira",
+			"description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>"
+		},
+		"Yew wand": {
+			"name": "Varinha de Teixo",
+			"description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
+		}
+	}
+}

@@ -1,0 +1,113 @@
+{
+	"label": "Tabelas",
+	"entries": {
+		"Cardinal Directions": {
+			"name": "Cardinal Directions",
+			"description": ""
+		},
+		"Chaotic Traits": {
+			"name": "Chaotic Traits",
+			"description": ""
+		},
+		"Charisma": {
+			"name": "Charisma",
+			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+		},
+		"Confusion Behavior": {
+			"name": "Confusion Behavior",
+			"description": "<p>Behavior for the Turn</p>"
+		},
+		"Constitution": {
+			"name": "Constitution",
+			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+		},
+		"Dexterity": {
+			"name": "Dexterity",
+			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+		},
+		"Elven Lineage": {
+			"name": "Elven Lineage",
+			"description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
+		},
+		"Evil Traits": {
+			"name": "Evil Traits",
+			"description": ""
+		},
+		"Feywild Gifts": {
+			"name": "Feywild Gifts",
+			"description": ""
+		},
+		"Fiendish Legacy": {
+			"name": "Fiendish Legacy",
+			"description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>"
+		},
+		"Gnomish Lineage": {
+			"name": "Gnomish Lineage",
+			"description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
+		},
+		"Good Traits": {
+			"name": "Good Traits",
+			"description": ""
+		},
+		"Intelligence": {
+			"name": "Intelligence",
+			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+		},
+		"Lawful Traits": {
+			"name": "Lawful Traits",
+			"description": ""
+		},
+		"Manifestations of Order": {
+			"name": "Manifestations of Order",
+			"description": ""
+		},
+		"Neutral Traits": {
+			"name": "Neutral Traits",
+			"description": ""
+		},
+		"Prismatic Layers": {
+			"name": "Prismatic Layers",
+			"description": ""
+		},
+		"Prismatic Rays": {
+			"name": "Prismatic Rays",
+			"description": ""
+		},
+		"Reincarnated Species": {
+			"name": "Reincarnated Species",
+			"description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>"
+		},
+		"Standard Languages": {
+			"name": "Standard Languages",
+			"description": ""
+		},
+		"Star Map Forms": {
+			"name": "Star Map Forms",
+			"description": ""
+		},
+		"Strength": {
+			"name": "Strength",
+			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+		},
+		"Sub-Languages Table": {
+			"name": "Sub-Languages Table",
+			"description": ""
+		},
+		"Teleport Mishap": {
+			"name": "Teleport Mishap",
+			"description": "<p><strong>Mishap damage:</strong> [[/damage 3d10 type=force]]</p><p><strong>Off target distance:</strong> [[/r 2d12#Miles]]{2d12 miles} [[/r 1d8#Direction]]{Direction}</p>"
+		},
+		"Trinkets": {
+			"name": "Trinkets",
+			"description": ""
+		},
+		"Wild Magic Surge": {
+			"name": "Wild Magic Surge",
+			"description": ""
+		},
+		"Wisdom": {
+			"name": "Wisdom",
+			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+		}
+	}
+}

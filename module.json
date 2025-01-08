@@ -1,0 +1,42 @@
+{
+  "id": "dnd5e2024br",
+  "title": "DND5e PTBR 2024",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/system.json",
+      "flags": {}
+    }
+  ],
+  "authors": [
+    {
+      "name": "LuKKsz",
+      "flags": {}
+    }
+  ]
+}

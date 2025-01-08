@@ -1,0 +1,593 @@
+{
+	"label": "Atores",
+	"entries": {
+		"Aberrant Spirit": {
+			"name": "Aberrant Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>"
+		},
+		"Air Elemental Spirit": {
+			"name": "Air Elemental Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>"
+		},
+		"Airship": {
+			"name": "Airship",
+			"description": "<p><strong>Speed:</strong> 8 mph</p><p><strong>Crew:</strong> 10</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 1</p><p><strong>AC:</strong> 13</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 40,000 GP</p>"
+		},
+		"Ape": {
+			"name": "Ape",
+			"description": ""
+		},
+		"Arcane Eye": {
+			"name": "Arcane Eye",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0 caption=false]</p>"
+		},
+		"Avenger Spirit": {
+			"name": "Avenger Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>"
+		},
+		"Badger": {
+			"name": "Badger",
+			"description": ""
+		},
+		"Barbarian": {
+			"name": "Barbarian",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBarbarian0000]{Barbarian}</td><td>Battle</td><td>Strength</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSailor00000]{Sailor}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspGoliath0000]{Goliath}</td><td>Giant, Goblin</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrbBarbarian0]{Barbarian}</td><td>15</td><td>13</td><td>14</td><td>10</td><td>12</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Chaotic</td><td>Rebellious</td></tr><tr><td>Evil</td><td>Vengeful</td></tr></tbody></table>"
+		},
+		"Bard": {
+			"name": "Bard",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000]{Bard}</td><td>Performing</td><td>Charisma</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgEntertainer]{Entertainer}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspChthonicTie]{Tiefling, Chthonic}</td><td>Halfling, Giant</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdBard000000]{Bard}</td><td>8</td><td>14</td><td>12</td><td>13</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Selfish</td></tr><tr><td>Evil</td><td>Greedy</td></tr></tbody></table>"
+		},
+		"Bat": {
+			"name": "Bat",
+			"description": ""
+		},
+		"Beast of the Land": {
+			"name": "Beast of the Land",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>"
+		},
+		"Beast of the Sea": {
+			"name": "Beast of the Sea",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>"
+		},
+		"Beast of the Sky": {
+			"name": "Beast of the Sky",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>"
+		},
+		"Beholderkin Spirit": {
+			"name": "Beholderkin Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>"
+		},
+		"Bestial Air Spirit": {
+			"name": "Bestial Air Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>"
+		},
+		"Bestial Land Spirit": {
+			"name": "Bestial Land Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>"
+		},
+		"Bestial Spirit": {
+			"name": "Bestial Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>"
+		},
+		"Bestial Water Spirit": {
+			"name": "Bestial Water Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonBeas caption=false]</p>"
+		},
+		"Bigby's Hand": {
+			"name": "Bigby's Hand",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplBigbysHand caption=false]</p>"
+		},
+		"Black Bear": {
+			"name": "Black Bear",
+			"description": ""
+		},
+		"Boar": {
+			"name": "Boar",
+			"description": ""
+		},
+		"Brown Bear": {
+			"name": "Brown Bear",
+			"description": ""
+		},
+		"Camel": {
+			"name": "Camel",
+			"description": ""
+		},
+		"Cat": {
+			"name": "Cat",
+			"description": ""
+		},
+		"Celestial Spirit": {
+			"name": "Celestial Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>"
+		},
+		"Celestial Steed": {
+			"name": "Celestial Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>"
+		},
+		"Clay Construct Spirit": {
+			"name": "Clay Construct Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>"
+		},
+		"Cleric": {
+			"name": "Cleric",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCleric0000000]{Cleric}</td><td>Gods</td><td>Wisdom</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuard000000]{Guard}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Dwarf}</td><td>Common Sign Language, Dwarvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbclcCleric0000]{Cleric}</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Loyal</td></tr><tr><td>Good</td><td>Helpful</td></tr></tbody></table>"
+		},
+		"Conjured Air Elemental": {
+			"name": "Conjured Air Elemental",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
+		},
+		"Conjured Animals": {
+			"name": "Conjured Animals",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni caption=false]</p>"
+		},
+		"Conjured Earth Elemental": {
+			"name": "Conjured Earth Elemental",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
+		},
+		"Conjured Fey": {
+			"name": "Conjured Fey",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureFey caption=false]</p>"
+		},
+		"Conjured Fire Elemental": {
+			"name": "Conjured Fire Elemental",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
+		},
+		"Conjured Water Elemental": {
+			"name": "Conjured Water Elemental",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
+		},
+		"Constrictor Snake": {
+			"name": "Constrictor Snake",
+			"description": ""
+		},
+		"Construct Spirit": {
+			"name": "Construct Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>"
+		},
+		"Crab": {
+			"name": "Crab",
+			"description": ""
+		},
+		"Crocodile": {
+			"name": "Crocodile",
+			"description": ""
+		},
+		"Dancing Light (Medium)": {
+			"name": "Dancing Light (Medium)",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>"
+		},
+		"Dancing Light (Tiny)": {
+			"name": "Dancing Light (Tiny)",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig caption=false]</p>"
+		},
+		"Defender Spirit": {
+			"name": "Defender Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele caption=false]</p>"
+		},
+		"Demon Spirit": {
+			"name": "Demon Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>"
+		},
+		"Devil Spirit": {
+			"name": "Devil Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>"
+		},
+		"Dire Wolf": {
+			"name": "Dire Wolf",
+			"description": ""
+		},
+		"Draconic Spirit": {
+			"name": "Draconic Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag caption=false]</p>"
+		},
+		"Draft Horse": {
+			"name": "Draft Horse",
+			"description": ""
+		},
+		"Druid": {
+			"name": "Druid",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbDruid00000000]{Druid}</td><td>Nature</td><td>Wisdom</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgFarmer00000]{Farmer}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHuman000000]{Human}</td><td>Elvish, Halfling</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdDruid00000]{Druid}</td><td>8</td><td>12</td><td>14</td><td>13</td><td>15</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Disinterested</td></tr><tr><td>Good</td><td>Honest</td></tr></tbody></table>"
+		},
+		"Duplicate": {
+			"name": "Duplicate",
+			"description": ""
+		},
+		"Earth Elemental Spirit": {
+			"name": "Earth Elemental Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>"
+		},
+		"Elemental Spirit": {
+			"name": "Elemental Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>"
+		},
+		"Elephant": {
+			"name": "Elephant",
+			"description": ""
+		},
+		"Elk": {
+			"name": "Elk",
+			"description": ""
+		},
+		"Faithful Hound": {
+			"name": "Faithful Hound",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbFaithfulHound caption=false]</p>"
+		},
+		"Fey Spirit": {
+			"name": "Fey Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>"
+		},
+		"Fey Steed": {
+			"name": "Fey Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>"
+		},
+		"Fiend Steed": {
+			"name": "Fiend Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>"
+		},
+		"Fiendish Spirit": {
+			"name": "Fiendish Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>"
+		},
+		"Fighter": {
+			"name": "Fighter",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000]{Fighter}</td><td>Weapons</td><td>Strength or Dexterity</td><td>Low</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgSoldier0000]{Soldier}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDwarf000000]{Dwarf}</td><td>Orc, Dwarvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbftrFighter000]{Fighter}</td><td>15</td><td>14</td><td>13</td><td>8</td><td>10</td><td>12</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Pragmatic</td></tr><tr><td>Good</td><td>Kind</td></tr></tbody></table>"
+		},
+		"Fire Elemental Spirit": {
+			"name": "Fire Elemental Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>"
+		},
+		"Flaming Sphere": {
+			"name": "Flaming Sphere",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFlamingSph caption=false]</p>"
+		},
+		"Floating Disk": {
+			"name": "Floating Disk",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplTensersFlo caption=false]</p>"
+		},
+		"Frog": {
+			"name": "Frog",
+			"description": ""
+		},
+		"Fuming Fey Spirit": {
+			"name": "Fuming Fey Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>"
+		},
+		"Galley": {
+			"name": "Galley",
+			"description": "<p><strong>Speed:</strong> 4 mph</p><p><strong>Crew:</strong> 80</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 150</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 30,000 GP</p>"
+		},
+		"Ghostly Spirit": {
+			"name": "Ghostly Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>"
+		},
+		"Giant Badger": {
+			"name": "Giant Badger",
+			"description": ""
+		},
+		"Giant Centipede": {
+			"name": "Giant Centipede",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>"
+		},
+		"Giant Crab": {
+			"name": "Giant Crab",
+			"description": ""
+		},
+		"Giant Goat": {
+			"name": "Giant Goat",
+			"description": ""
+		},
+		"Giant Insect": {
+			"name": "Giant Insect",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>"
+		},
+		"Giant Seahorse": {
+			"name": "Giant Seahorse",
+			"description": ""
+		},
+		"Giant Spider": {
+			"name": "Giant Spider",
+			"description": ""
+		},
+		"Giant Wasp": {
+			"name": "Giant Wasp",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGiantInsec caption=false]</p>"
+		},
+		"Giant Weasel": {
+			"name": "Giant Weasel",
+			"description": ""
+		},
+		"Goat": {
+			"name": "Goat",
+			"description": ""
+		},
+		"Grasping Vine": {
+			"name": "Grasping Vine",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGraspingVi caption=false]</p>"
+		},
+		"Guardian of Faith": {
+			"name": "Guardian of Faith",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof caption=false]</p>"
+		},
+		"Hawk": {
+			"name": "Hawk",
+			"description": ""
+		},
+		"Horse, Draft": {
+			"name": "Horse, Draft",
+			"description": ""
+		},
+		"Horse, Riding": {
+			"name": "Horse, Riding",
+			"description": ""
+		},
+		"Huge Animated Object": {
+			"name": "Huge Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>"
+		},
+		"Illusory Creature": {
+			"name": "Illusory Creature",
+			"description": ""
+		},
+		"Illusory Object": {
+			"name": "Illusory Object",
+			"description": ""
+		},
+		"Illusory Phenomenon": {
+			"name": "Illusory Phenomenon",
+			"description": ""
+		},
+		"Imp": {
+			"name": "Imp",
+			"description": ""
+		},
+		"Invisible Sensor": {
+			"name": "Invisible Sensor",
+			"description": ""
+		},
+		"Keelboat": {
+			"name": "Keelboat",
+			"description": "<p><strong>Speed:</strong> 1 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 1/2</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 100</p><p><strong>Damage Threshold:</strong> 10</p><p><strong>Cost:</strong> 3,000 GP</p>"
+		},
+		"Large Animated Object": {
+			"name": "Large Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>"
+		},
+		"Light": {
+			"name": "Light",
+			"description": ""
+		},
+		"Lion": {
+			"name": "Lion",
+			"description": ""
+		},
+		"Lizard": {
+			"name": "Lizard",
+			"description": ""
+		},
+		"Longship": {
+			"name": "Longship",
+			"description": "<p><strong>Speed:</strong> 3 mph</p><p><strong>Crew:</strong> 40</p><p><strong>Passengers:</strong> 150</p><p><strong>Cargo (Tons):</strong> 10</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>"
+		},
+		"Mage Hand": {
+			"name": "Mage Hand",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00 caption=false]</p>"
+		},
+		"Mastiff": {
+			"name": "Mastiff",
+			"description": ""
+		},
+		"Medium Animated Object": {
+			"name": "Medium Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>"
+		},
+		"Metal Construct Spirit": {
+			"name": "Metal Construct Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>"
+		},
+		"Mind Flayer Spirit": {
+			"name": "Mind Flayer Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>"
+		},
+		"Mirthful Fey Spirit": {
+			"name": "Mirthful Fey Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>"
+		},
+		"Monk": {
+			"name": "Monk",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbMonk000000000]{Monk}</td><td>Unarmed combat</td><td>Dexterity and Wisdom</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgGuide000000]{Guide}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDragonborn0]{Dragonborn}</td><td>Dwarvish, Draconic</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMonk000000]{Monk}</td><td>12</td><td>15</td><td>13</td><td>10</td><td>14</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Methodical</td></tr><tr><td>Neutral</td><td>Laconic</td></tr></tbody></table><p></p>"
+		},
+		"Mordenkainen’s Sword": {
+			"name": "Mordenkainen’s Sword",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbswdMordenkain caption=false]</p>"
+		},
+		"Mule": {
+			"name": "Mule",
+			"description": ""
+		},
+		"Octopus": {
+			"name": "Octopus",
+			"description": ""
+		},
+		"Otherworldly Steed": {
+			"name": "Otherworldly Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>"
+		},
+		"Owl": {
+			"name": "Owl",
+			"description": ""
+		},
+		"Paladin": {
+			"name": "Paladin",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPaladin000000]{Paladin}</td><td>Defense</td><td>Strength and Charisma</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgNoble000000]{Noble}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspOrc00000000]{Orc}</td><td>Dwarvish, Orc</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnPaladin000]{Paladin}</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Judgmental</td></tr><tr><td>Good</td><td>Honest</td></tr></tbody></table>"
+		},
+		"Panther": {
+			"name": "Panther",
+			"description": ""
+		},
+		"Phantom Steed": {
+			"name": "Phantom Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte caption=false]</p>"
+		},
+		"Pony": {
+			"name": "Pony",
+			"description": ""
+		},
+		"Pseudodragon": {
+			"name": "Pseudodragon",
+			"description": ""
+		},
+		"Putrid Spirit": {
+			"name": "Putrid Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>"
+		},
+		"Quasit": {
+			"name": "Quasit",
+			"description": ""
+		},
+		"Ranger": {
+			"name": "Ranger",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRanger0000000]{Ranger}</td><td>Survival</td><td>Dexterity and Wisdom</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgWayfarer000]{Wayfarer}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspWoodElf0000]{Elf, Wood}</td><td>Gnomish, Elvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrRanger0000]{Ranger}</td><td>12</td><td>15</td><td>13</td><td>8</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Chaotic</td><td>Self-absorbed</td></tr><tr><td>Good</td><td>Honest</td></tr></tbody></table>"
+		},
+		"Rat": {
+			"name": "Rat",
+			"description": ""
+		},
+		"Raven": {
+			"name": "Raven",
+			"description": ""
+		},
+		"Reef Shark": {
+			"name": "Reef Shark",
+			"description": ""
+		},
+		"Riding Horse": {
+			"name": "Riding Horse",
+			"description": ""
+		},
+		"Rogue": {
+			"name": "Rogue",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbRogue00000000]{Rogue}</td><td>Stealth</td><td>Dexterity</td><td>Low</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCriminal000]{Criminal}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspHalfling000]{Halfling}</td><td>Common Sign Language, Halfling</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeRogue00000]{Rogue}</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Loyal</td></tr><tr><td>Evil</td><td>Dishonest</td></tr></tbody></table>"
+		},
+		"Rowboat": {
+			"name": "Rowboat",
+			"description": "<p><strong>Speed:</strong> 1 1/2 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> 3</p><p><strong>Cargo (Tons):</strong> —</p><p><strong>AC:</strong> 11</p><p><strong>HP:</strong> 50</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 50 GP</p>"
+		},
+		"Sailing Ship": {
+			"name": "Sailing Ship",
+			"description": "<p><strong>Speed:</strong> 2 mph</p><p><strong>Crew:</strong> 20</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 100</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>"
+		},
+		"Scorpion": {
+			"name": "Scorpion",
+			"description": ""
+		},
+		"Secret Chest": {
+			"name": "Secret Chest",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplLeomundsSe caption=false]</p>"
+		},
+		"Skeletal Spirit": {
+			"name": "Skeletal Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>"
+		},
+		"Skeleton": {
+			"name": "Skeleton",
+			"description": ""
+		},
+		"Slaad Spirit": {
+			"name": "Slaad Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber caption=false]</p>"
+		},
+		"Slaad Tadpole": {
+			"name": "Slaad Tadpole",
+			"description": ""
+		},
+		"Small Animated Object": {
+			"name": "Small Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>"
+		},
+		"Sorcerer": {
+			"name": "Sorcerer",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSorcerer00000]{Sorcerer}</td><td>Power</td><td>Charisma</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgCharlatan00]{Charlatan}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspDrow0000000]{Elf, Drow}</td><td>Giant, Elvish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbscrSorcerer00]{Sorcerer}</td><td>10</td><td>13</td><td>14</td><td>8</td><td>12</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Chaotic</td><td>Impulsive</td></tr><tr><td>Neutral</td><td>Laconic</td></tr></tbody></table>"
+		},
+		"Sphinx of Wonder": {
+			"name": "Sphinx of Wonder",
+			"description": ""
+		},
+		"Spider": {
+			"name": "Spider",
+			"description": ""
+		},
+		"Spiritual Weapon": {
+			"name": "Spiritual Weapon",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW caption=false]</p>"
+		},
+		"Sprite": {
+			"name": "Sprite",
+			"description": ""
+		},
+		"Stone Construct Spirit": {
+			"name": "Stone Construct Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons caption=false]</p>"
+		},
+		"Tiger": {
+			"name": "Tiger",
+			"description": ""
+		},
+		"Tiny Animated Object": {
+			"name": "Tiny Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>"
+		},
+		"Tricksy Fey Spirit": {
+			"name": "Tricksy Fey Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0 caption=false]</p>"
+		},
+		"Undead Spirit": {
+			"name": "Undead Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde caption=false]</p>"
+		},
+		"Unseen Servant": {
+			"name": "Unseen Servant",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplUnseenServ caption=false]</p>"
+		},
+		"Venomous Snake": {
+			"name": "Venomous Snake",
+			"description": ""
+		},
+		"Warhorse": {
+			"name": "Warhorse",
+			"description": ""
+		},
+		"Warlock": {
+			"name": "Warlock",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000]{Warlock}</td><td>Occult lore</td><td>Charisma</td><td>High</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgAcolyte0000]{Acolyte}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspRockGnome00]{Gnome, Rock}</td><td>Dwarvish, Gnomish</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkWarlock000]{Warlock}</td><td>8</td><td>14</td><td>13</td><td>12</td><td>10</td><td>15</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Neutral</td><td>Laconic and Disinterested</td></tr></tbody></table>"
+		},
+		"Warship": {
+			"name": "Warship",
+			"description": "<p><strong>Speed:</strong> 2 1/2 mph</p><p><strong>Crew:</strong> 60</p><p><strong>Passengers:</strong> 60</p><p><strong>Cargo (Tons):</strong> 200</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 25,000 GP</p>"
+		},
+		"Water Elemental Spirit": {
+			"name": "Water Elemental Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem caption=false]</p>"
+		},
+		"Weasel": {
+			"name": "Weasel",
+			"description": ""
+		},
+		"Wizard": {
+			"name": "Wizard",
+			"description": "<table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.5ay66aAVgkgRH7qH]{Step 1: Choose a Class}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Likes</th><th scope=\"col\">Primary Ability</th><th scope=\"col\">Complexity</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWizard0000000]{Wizard}</td><td>Spellbooks</td><td>Intelligence</td><td>Average</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.t1WP9VEevo4TOTXw]{Step 2: Determine Origin}</caption><thead><tr><th scope=\"col\">Background</th><th scope=\"col\">Species</th><th scope=\"col\">Choose Languages</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbbgScribe00000]{Scribe}</td><td>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspAasimar0000]{Aasimar}</td><td>Draconic, Common Sign Language</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.9o8NbQ1Ph2xCxlQh]{Step 3: Determine Ability Scores}</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Str.</th><th scope=\"col\">Dex.</th><th scope=\"col\">Con.</th><th scope=\"col\">Int.</th><th scope=\"col\">Wis.</th><th scope=\"col\">Cha.</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.classes.Item.phbwzdWizard0000]{Wizard}</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></tbody></table><table><caption>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.6ThVICG0QSRy7L0F]{Step 4: Choose an Alignment}</caption><thead><tr><th scope=\"col\">Alignment</th><th scope=\"col\">Personality</th></tr></thead><tbody><tr><td>Lawful</td><td>Methodical</td></tr><tr><td>Neutral</td><td>Selfish</td></tr></tbody></table>"
+		},
+		"Wolf": {
+			"name": "Wolf",
+			"description": ""
+		},
+		"Yugoloth Spirit": {
+			"name": "Yugoloth Spirit",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien caption=false]</p>"
+		},
+		"Zombie": {
+			"name": "Zombie",
+			"description": ""
+		}
+	}
+}
