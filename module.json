@@ -1,6 +1,7 @@
 {
   "id": "dnd5e_2024_pt-BR",
   "title": "DnD5e Português do Brasil (2024)",
+  "description": "Traduz o sistema D&D 5E para o Português do Brasil",
   "version": "0.0.2",
   "compatibility": {
     "minimum": "12",
@@ -41,9 +42,6 @@
     }
   ],
   "authors": [
-    {
-      "name": "LuKKsz"
-    },
     {
       "name": "decito"
     }
