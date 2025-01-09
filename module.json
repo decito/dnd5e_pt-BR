@@ -1,0 +1,49 @@
+{
+  "id": "dnd5e_2024_pt-BR",
+  "title": "DnD5e Português do Brasil (2024)",
+  "description": "Traduz o sistema D&D 5E para o Português do Brasil",
+  "version": "0.0.3",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pt-BR",
+        "type": "module"
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "dnd5e_pt-BR",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": ["main.js"],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "authors": [
+    {
+      "name": "decito"
+    }
+  ]
+}
