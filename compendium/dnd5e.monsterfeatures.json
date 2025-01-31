@@ -1,5 +1,5 @@
 {
-  "label": "característicasdemonstro",
+  "label": "Características",
   "entries": {
     "Aberrant Ground": {
       "description": "<section class=\"secret\">\n<p>O solo fica pegajoso e torna-se terreno difícil em um <strong>raio de 3 metros</strong> em torno do {creature}.</p><p>Cada criatura que inicie o turno nessa área deve ser bem-sucedida em uma <strong>salvaguarda de Força CD 10</strong>, ou tem o deslocamento reduzido para 0 até o começo do seu próximo turno.</p>\n</section>\n<p>O solo fica pegajoso e torna-se terreno difícil em um <strong>raio de 3 metros</strong> em torno do {creature}. Faça uma salvaguarda de <strong>Força</strong>.</p>",
